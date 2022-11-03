@@ -25,4 +25,15 @@
             return result;
         }
     }
+
+    public class Squarer
+    {
+        public double Square(double input)
+        {
+            double result = input;
+            result = result * result;
+            return result;
+
+        }
+    }
 }

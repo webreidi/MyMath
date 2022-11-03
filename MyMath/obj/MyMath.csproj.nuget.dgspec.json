@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\webreidi\\source\\repos\\MyMath\\MyMath\\MyMath.csproj": {}
+    "C:\\Users\\webreidi\\source\\repos\\MyMath\\MyMath\\MyMath.csproj": {}
   },
   "projects": {
-    "c:\\Users\\webreidi\\source\\repos\\MyMath\\MyMath\\MyMath.csproj": {
+    "C:\\Users\\webreidi\\source\\repos\\MyMath\\MyMath\\MyMath.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\webreidi\\source\\repos\\MyMath\\MyMath\\MyMath.csproj",
+        "projectUniqueName": "C:\\Users\\webreidi\\source\\repos\\MyMath\\MyMath\\MyMath.csproj",
         "projectName": "MyMath",
-        "projectPath": "c:\\Users\\webreidi\\source\\repos\\MyMath\\MyMath\\MyMath.csproj",
+        "projectPath": "C:\\Users\\webreidi\\source\\repos\\MyMath\\MyMath\\MyMath.csproj",
         "packagesPath": "C:\\Users\\webreidi\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\webreidi\\source\\repos\\MyMath\\MyMath\\obj\\",
+        "outputPath": "C:\\Users\\webreidi\\source\\repos\\MyMath\\MyMath\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

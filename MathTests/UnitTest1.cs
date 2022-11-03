@@ -57,5 +57,14 @@ namespace MathTests
             Assert.Fail();
         }
 
+        [TestMethod]
+        public void SquaringTester()
+        {
+            Squarer square = new Squarer();
+            double input = 2.0;
+            double expectedResult = input * input;
+            Assert.AreEqual(expectedResult, square.Square(input));
+        }
+
     }
 }

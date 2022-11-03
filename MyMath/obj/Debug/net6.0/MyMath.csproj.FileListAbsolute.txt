@@ -1,0 +1,12 @@
+c:\Users\webreidi\source\repos\MyMath\MyMath\bin\Debug\net6.0\MyMath.deps.json
+c:\Users\webreidi\source\repos\MyMath\MyMath\bin\Debug\net6.0\MyMath.dll
+c:\Users\webreidi\source\repos\MyMath\MyMath\bin\Debug\net6.0\MyMath.pdb
+c:\Users\webreidi\source\repos\MyMath\MyMath\obj\Debug\net6.0\MyMath.csproj.AssemblyReference.cache
+c:\Users\webreidi\source\repos\MyMath\MyMath\obj\Debug\net6.0\MyMath.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\webreidi\source\repos\MyMath\MyMath\obj\Debug\net6.0\MyMath.AssemblyInfoInputs.cache
+c:\Users\webreidi\source\repos\MyMath\MyMath\obj\Debug\net6.0\MyMath.AssemblyInfo.cs
+c:\Users\webreidi\source\repos\MyMath\MyMath\obj\Debug\net6.0\MyMath.csproj.CoreCompileInputs.cache
+c:\Users\webreidi\source\repos\MyMath\MyMath\obj\Debug\net6.0\MyMath.dll
+c:\Users\webreidi\source\repos\MyMath\MyMath\obj\Debug\net6.0\refint\MyMath.dll
+c:\Users\webreidi\source\repos\MyMath\MyMath\obj\Debug\net6.0\MyMath.pdb
+c:\Users\webreidi\source\repos\MyMath\MyMath\obj\Debug\net6.0\ref\MyMath.dll
