@@ -57,5 +57,117 @@ namespace MathTests
             Assert.Fail();
         }
 
+        [TestMethod]
+        public void SquaringTester()
+        {
+            Squarer square = new Squarer();
+            double input = 2.0;
+            double expectedResult = input * input;
+            Assert.AreEqual(expectedResult, square.Square(input));
+        }
+
+        [TestMethod]
+        public void TestAbsoluteValueNegative() 
+        {
+            var maths = new WendysMath();
+            double input = -27.58;
+            double expectedResult = 27.58;
+            Assert.AreEqual(expectedResult, maths.AbsoluteValue(input));
+        }
+
+        [TestMethod]
+        public void TestAbsoluteValuePositive()
+        {
+            var maths = new WendysMath();
+            double input = 27.58;
+            Assert.AreEqual(input, maths.AbsoluteValue(input));            
+        }
+
+        [TestMethod]
+        public void TestAbsoluteValueZero()
+        {
+            var maths = new WendysMath();
+            double input = 0;
+            Assert.AreEqual(input, maths.AbsoluteValue(input));            
+        }
+
+        [TestMethod]
+        public void TestRoundUp()
+        {
+            var maths = new WendysMath();
+            double input = 27.58;
+            Assert.AreEqual(28, maths.Rounder(input));
+        }
+
+        [TestMethod]
+        public void TestRoundDown()
+        {
+            var maths = new WendysMath();
+            double input = 27.48;
+            Assert.AreEqual(27, maths.Rounder(input));
+        }
+
+        [TestMethod]
+        public void TestRounding()
+        {
+            var maths = new WendysMath();
+            double input = 27.5;
+            Assert.AreEqual(28, maths.Rounder(input));
+        }
+
+        [TestMethod]
+        public void TestMaxer()
+        {
+            var maths = new WendysMath();
+            double a = 27.48;
+            double b = 27.58;
+            Assert.AreEqual(b, maths.Maxer(a,b));
+        }
+
+        [TestMethod]
+        public void TestMinner()
+        {
+            var maths = new WendysMath();
+            double a = 27.48;
+            double b = 27.58;
+            Assert.AreEqual(a, maths.Minner(a,b));
+        }
+
+        [TestMethod]
+        public void TestMaxerAgain()
+        {
+            var maths = new WendysMath();
+            double b = 27.48;
+            double a = 27.58;
+            Assert.AreEqual(a, maths.Maxer(a,b));
+        }
+
+        [TestMethod]
+                public void TestMinnerAgain()
+        {
+            var maths = new WendysMath();
+            double b = 27.48;
+            double a = 27.58;
+            Assert.AreEqual(b, maths.Minner(a,b));
+        }
+
+        [TestMethod]
+        public void TestMaxerEqual()
+        {
+            var maths = new WendysMath();
+            double a = 27.48;
+            double b = 27.48;
+            Assert.AreEqual(a, maths.Maxer(a,b));
+        }
+
+        [TestMethod]
+        public void TestMinnerEqual()
+        {
+            var maths = new WendysMath();
+            double a = 27.48;
+            double b = 27.48;
+            Assert.AreEqual(a, maths.Minner(a,b));
+        }
+
     }
 }
