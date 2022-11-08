@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v1c0j2QOf2icBJtHL6j6/2iDZCVeTWaVlBOWDsfHVfPkcvIwHwxePTPaHY+IvpfwpWvxz8WQYtULTKYVIcZbqA==",
+  "dgSpecHash": "yQQM8t8ueZ1xOOVtLuWwKwSOoGbmFf4wnXJUNE/QQLOy+zBeH4eKI6i2Dz5UBx14BfT/qmDiPVKLmxaIYZ/7yQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\webreidi\\source\\repos\\MyMath\\MyMath\\MyMath.csproj",
+  "projectFilePath": "C:\\Users\\webreidi\\source\\repos\\MyMath\\MyMath\\myMath.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

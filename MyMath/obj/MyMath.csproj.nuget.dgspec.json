@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\webreidi\\source\\repos\\MyMath\\MyMath\\MyMath.csproj": {}
+    "C:\\Users\\webreidi\\source\\repos\\MyMath\\MyMath\\myMath.csproj": {}
   },
   "projects": {
-    "C:\\Users\\webreidi\\source\\repos\\MyMath\\MyMath\\MyMath.csproj": {
+    "C:\\Users\\webreidi\\source\\repos\\MyMath\\MyMath\\myMath.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\webreidi\\source\\repos\\MyMath\\MyMath\\MyMath.csproj",
-        "projectName": "MyMath",
-        "projectPath": "C:\\Users\\webreidi\\source\\repos\\MyMath\\MyMath\\MyMath.csproj",
+        "projectUniqueName": "C:\\Users\\webreidi\\source\\repos\\MyMath\\MyMath\\myMath.csproj",
+        "projectName": "myMath",
+        "projectPath": "C:\\Users\\webreidi\\source\\repos\\MyMath\\MyMath\\myMath.csproj",
         "packagesPath": "C:\\Users\\webreidi\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\webreidi\\source\\repos\\MyMath\\MyMath\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\webreidi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "Https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -58,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

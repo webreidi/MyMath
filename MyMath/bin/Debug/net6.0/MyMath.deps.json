@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "MyMath/1.0.0": {
+      "myMath/1.0.0": {
         "runtime": {
-          "MyMath.dll": {}
+          "myMath.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "MyMath/1.0.0": {
+    "myMath/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

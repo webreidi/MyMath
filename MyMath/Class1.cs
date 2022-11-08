@@ -85,7 +85,24 @@ namespace MyMath
 
         public double Power(double input, int power) {
             double result = input;
-            
+            if (power == 0)
+            {
+                result = 1;
+            } else if (power > 0)
+            {
+               for (int i = 1; i < power; i++)
+               {
+                   result = result * input;
+               }
+            }
+            else
+            {
+               for (int i = 1; i < -power; i++)
+               {
+                   result = result * input;
+               }
+               result = 1 / result;
+            }   
             return result;
 
         }

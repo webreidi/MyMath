@@ -169,5 +169,31 @@ namespace MathTests
             Assert.AreEqual(a, maths.Minner(a,b));
         }
 
+        [TestMethod]
+        public void TestPower()
+        {
+            var maths = new WendysMath();
+            double a = 2;
+            int b = 3;
+            Assert.AreEqual(8, maths.Power(a, b));
+        }
+
+        [TestMethod]
+        public void TestPowerZero()
+        {
+            var maths = new WendysMath();
+            double a = 2;
+            int b = 0;
+            Assert.AreEqual(1, maths.Power(a, b));
+        }
+
+        [TestMethod]
+        public void TestPowerNegative()
+        {
+            var maths = new WendysMath();
+            double a = 2;
+            int b = -3;
+            Assert.AreEqual(0.125, maths.Power(a, b)); 
+        }
     }
 }
