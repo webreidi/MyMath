@@ -1,4 +1,6 @@
-﻿namespace MyMath
+﻿using System;
+
+namespace MyMath
 {
     public class Class1
     {
@@ -35,5 +37,58 @@
             return result;
 
         }
+    }
+
+    public class WendysMath
+    {
+        public double AbsoluteValue(double input)
+        {
+
+            double result = input;
+            if (result < 0)
+            {
+                result = -result;
+            } 
+            return result;
+        }
+
+        public double Rounder(double input)
+        {
+            double result = input;
+            if (result - Math.Floor(result) >= 0.5)
+            {
+                result = Math.Floor(result) + 1;
+            } else{
+                result = Math.Floor(result);
+            }
+            return result;
+        }
+
+        public double Maxer(double a, double b)
+        {
+            double result = a;
+            if (a<b) {
+                result = b;
+            }
+            return result;
+        }
+
+        public double Minner(double a, double b)
+        {
+            double result = a;
+            if (a>b)
+            {
+                result = b;
+            }
+            return result;
+        }
+
+        public double Power(double input, int power) {
+            double result = input;
+            
+            return result;
+
+        }
+
     }
 }
