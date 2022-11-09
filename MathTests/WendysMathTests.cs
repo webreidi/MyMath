@@ -4,12 +4,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace MathTests
 {
     [TestClass]
-    class WendysMathTests
+    public class WendysMathTests
     {
         [TestMethod]
         public void TestAbsoluteValueNegative()
@@ -139,6 +140,22 @@ namespace MathTests
             double a = 2;
             int b = -3;
             Assert.AreEqual(0.125, maths.Power(a, b));
+        }
+
+        [TestMethod]
+        public void TestFloorer()
+        {
+            var maths = new WendysMath();
+            double a = 27.58;
+            Assert.AreEqual(27, maths.Floorer(a));
+        }
+
+        [TestMethod]
+        public void TestCeilinger()
+        {
+            var maths = new WendysMath();
+            double a = 27.58;
+            Assert.AreEqual(28, maths.Ceilinger(a));
         }
     }
 }

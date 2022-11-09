@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace MathTests
 {
     [TestClass]
-    class SquarerTests
+    public class SquarerTests
     {
 
         [TestMethod]

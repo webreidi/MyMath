@@ -79,5 +79,17 @@ namespace myMath
 
         }
 
+        public int Floorer(double input)
+        {
+            int result = (int)input;
+            return result;
+        }
+        
+        public int Ceilinger(double input)
+        {
+            int result = (int)input + 1;
+            return result;
+        }
+
     }
 }

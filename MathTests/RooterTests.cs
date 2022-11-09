@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace MathTests
 {
     [TestClass]
-    class RooterTests
+    public class RooterTests
     {
         [TestMethod]
         public void BasicRooterTest()
@@ -56,6 +56,7 @@ namespace MathTests
             }
             catch (System.ArgumentOutOfRangeException)
             {
+                Assert.IsTrue(true, "Caught exception for - square root");
                 return;
             }
             Assert.Fail();
