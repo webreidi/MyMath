@@ -22,7 +22,7 @@ namespace MathTests
             // Run the method under test:
             double actualResult = rooter.SquareRoot(input);
             // Verify the result:
-            Assert.AreEqual(expectedResult, actualResult, delta: expectedResult / 100);
+            Assert.AreEqual(expectedResult, actualResult, delta: expectedResult / 100, "Basic Square Root Test");
         }
 
         [TestMethod]
@@ -36,14 +36,14 @@ namespace MathTests
             {
                 RooterOneValue(rooter, expected);
             }
+            RooterOneValue(rooter, 500);
         }
 
-        [TestMethod]
         private void RooterOneValue(Rooter rooter, double expectedResult)
         {
             double input = expectedResult * expectedResult;
             double actualResult = rooter.SquareRoot(input);
-            Assert.AreEqual(expectedResult, actualResult, delta: expectedResult / 1000);
+            Assert.AreEqual(expectedResult, actualResult, delta: expectedResult / 1000, "Square Root test Value Range Test");
         }
 
         [TestMethod]

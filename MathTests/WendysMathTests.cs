@@ -116,14 +116,34 @@ namespace MathTests
         }
 
         [TestMethod]
-        public void TestPower()
+        public void TestPowerNegative()
         {
             var maths = new WendysMath();
             double a = 2;
-            int b = 3;
-            Assert.AreEqual(8, maths.Power(a, b));
+            int b = -3;
+            Assert.AreEqual(0.125, maths.Power(a, b));
         }
 
+        [TestMethod]
+        public void TestPower()
+        {
+            var maths = new WendysMath();
+            for (int i = 0; i < 10; i++)
+            {
+                for (double b = -10; b < 10; b++)
+                {
+                    double pow = Math.Pow(b, i);
+                    PowerOneValue(maths, b,i, pow);
+                }
+            }
+            
+        }
+
+        public void PowerOneValue(WendysMath maths, double a, int b, double expectedResult)
+        {
+            Assert.AreEqual(expectedResult, maths.Power(a, b));
+        }
+        
         [TestMethod]
         public void TestPowerZero()
         {
@@ -131,15 +151,6 @@ namespace MathTests
             double a = 2;
             int b = 0;
             Assert.AreEqual(1, maths.Power(a, b));
-        }
-
-        [TestMethod]
-        public void TestPowerNegative()
-        {
-            var maths = new WendysMath();
-            double a = 2;
-            int b = -3;
-            Assert.AreEqual(0.125, maths.Power(a, b));
         }
 
         [TestMethod]
