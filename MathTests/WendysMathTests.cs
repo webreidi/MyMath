@@ -133,15 +133,11 @@ namespace MathTests
                 for (double b = -10; b < 10; b++)
                 {
                     double pow = Math.Pow(b, i);
-                    PowerOneValue(maths, b,i, pow);
+                    String msg = "Power Test where the base is " + b + " and the exponent is " + i + " giving an answer of " + pow;
+                    Assert.AreEqual(pow, maths.Power(b, i), msg);
                 }
             }
             
-        }
-
-        public void PowerOneValue(WendysMath maths, double a, int b, double expectedResult)
-        {
-            Assert.AreEqual(expectedResult, maths.Power(a, b));
         }
         
         [TestMethod]
@@ -160,6 +156,14 @@ namespace MathTests
             double a = 27.58;
             Assert.AreEqual(27, maths.Floorer(a));
         }
+
+        [TestMethod]
+        public void TestFloorZero()
+        {
+          var maths = new WendysMath();
+                double a = 0;
+                Assert.AreEqual(0, maths.Floorer(a));
+            }
 
         [TestMethod]
         public void TestCeilinger()
