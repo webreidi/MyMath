@@ -16,7 +16,7 @@ namespace MathTests
         {
             Console.WriteLine("This is the Adder Test Running.");
             SimpleMath simplemaths = new();
-            Random rnd = new Random();
+            Random rnd = new();
             
             for (int i=-10; i<10; i++)
             {
@@ -32,7 +32,7 @@ namespace MathTests
         {
             Console.WriteLine("This is the subtraction tester running.");
             SimpleMath simplemaths = new();
-            Random rnd = new Random();
+            Random rnd = new();
             
             for (int i=-10; i<10; i++)
             {
@@ -47,7 +47,7 @@ namespace MathTests
         public void MulitplierTest()
         {
             SimpleMath simplemaths = new();
-            Random rnd = new Random();
+            Random rnd = new();
 
             for (int i = -10; i < 10; i++)
             {
@@ -58,5 +58,21 @@ namespace MathTests
             }
         }
 
-    }
+        [TestMethod]
+        public void DividerTest()
+        {
+			SimpleMath simplemaths = new();
+			Random rnd = new();
+
+			for (int i = -10; i < 10; i++)
+			{
+				double b = rnd.NextDouble();
+				double expected = i / b;
+				Console.WriteLine("Testing where a = " + i + " and b = " + b + " giving the result of " + expected);
+				Assert.AreEqual(expected, simplemaths.Divider(i, b));
+			}
+		}
+	}
+
+
 }

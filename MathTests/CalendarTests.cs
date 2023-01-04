@@ -16,12 +16,13 @@ namespace MathTests
         {
             Console.WriteLine("This is the PrintDay Test Running.");
             Calendars calendars = new();
-            DateTime date = new();
-
-            for (int i = 0; i < 7; i++)
-            {
-                //Assert.AreEqual(DayOfWeek(i), calendars.GetDay(i));
-            }
+            Assert.AreEqual("Monday", calendars.GetDay(0));
+            Assert.AreEqual("Tuesday", calendars.GetDay(1));
+            Assert.AreEqual("Wednesday", calendars.GetDay(2));
+            Assert.AreEqual("Thursday", calendars.GetDay(3));
+            Assert.AreEqual("Friday", calendars.GetDay(4));
+            Assert.AreEqual("Saturday", calendars.GetDay(5));
+            Assert.AreEqual("Sunday", calendars.GetDay(6));
         }   
     }
 }

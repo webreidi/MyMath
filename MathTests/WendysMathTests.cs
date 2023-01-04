@@ -2,6 +2,7 @@
 using myMath;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -15,113 +16,135 @@ namespace MathTests
         [TestMethod]
         public void TestAbsoluteValueNegative()
         {
-            var maths = new WendysMath();
-            double input = -27.58;
-            double expectedResult = 27.58;
+            WendysMath maths = new();
+            Random rand = new();
+            double input = -rand.NextDouble();
+            double expectedResult = Math.Abs(input);
+            Console.WriteLine("Input value is " + input);
             Assert.AreEqual(expectedResult, maths.AbsoluteValue(input));
         }
 
         [TestMethod]
         public void TestAbsoluteValuePositive()
         {
-            var maths = new WendysMath();
-            double input = 27.58;
+            WendysMath maths = new();
+            Random rand = new();
+            double input = rand.NextDouble();
+            Console.WriteLine("Input value is " + input);
             Assert.AreEqual(input, maths.AbsoluteValue(input));
         }
 
         [TestMethod]
         public void TestAbsoluteValueZero()
         {
-            var maths = new WendysMath();
+            WendysMath maths = new();
             double input = 0;
             Assert.AreEqual(input, maths.AbsoluteValue(input));
         }
 
         [TestMethod]
-        public void TestRoundUp()
-        {
-            var maths = new WendysMath();
-            double input = 27.58;
-            Assert.AreEqual(28, maths.Rounder(input));
-        }
-
-        [TestMethod]
-        public void TestRoundDown()
-        {
-            var maths = new WendysMath();
-            double input = 27.48;
-            Assert.AreEqual(27, maths.Rounder(input));
-        }
-
-        [TestMethod]
         public void TestRounding()
         {
-            var maths = new WendysMath();
-            double input = 27.5;
-            Assert.AreEqual(28, maths.Rounder(input));
+            WendysMath maths = new();
+            Random rand = new();
+            double input = rand.NextDouble();
+            double expectedResult = Math.Round(input);
+            Console.WriteLine("Input value is " + input);
+            Assert.AreEqual(expectedResult, maths.Rounder(input));
+        }
+
+        [TestMethod]
+        public void TestRounder()
+        {
+            WendysMath maths = new();
+            Random rand = new();
+            for (int a = 1; a < 10; a++)
+            {
+                double input = rand.NextInt64() + rand.NextDouble();
+                Console.WriteLine("Input value is " + input);
+                if ((double)Convert.ToDecimal(input) >= 0.5)
+                {
+                    double expectedResult = Math.Ceiling(input);
+                    Assert.AreEqual(expectedResult, maths.Rounder(input));
+                }
+                else
+                {
+                    double expectedResult = Math.Floor(input);
+                    Assert.AreEqual(expectedResult, maths.Rounder(input));
+                }
+            }
         }
 
         [TestMethod]
         public void TestMaxer()
         {
-            var maths = new WendysMath();
-            double a = 27.48;
-            double b = 27.58;
-            Assert.AreEqual(b, maths.Maxer(a, b));
+            WendysMath maths = new();
+            Random rand = new();
+            for (int j = 1; j < 10; j++)
+            {
+                double a = rand.NextInt64() + rand.NextDouble();
+                double b = rand.NextInt64() + rand.NextDouble();
+                double expectedResult = Math.Max(a, b);
+                Console.WriteLine("Input value is " + a + " and " + b);
+                Assert.AreEqual(expectedResult, maths.Maxer(a, b));
+            }
         }
 
         [TestMethod]
         public void TestMinner()
         {
-            var maths = new WendysMath();
-            double a = 27.48;
-            double b = 27.58;
-            Assert.AreEqual(a, maths.Minner(a, b));
-        }
-
-        [TestMethod]
-        public void TestMaxerAgain()
-        {
-            var maths = new WendysMath();
-            double b = 27.48;
-            double a = 27.58;
-            Assert.AreEqual(a, maths.Maxer(a, b));
-        }
-
-        [TestMethod]
-        public void TestMinnerAgain()
-        {
-            var maths = new WendysMath();
-            double b = 27.48;
-            double a = 27.58;
-            Assert.AreEqual(b, maths.Minner(a, b));
+            WendysMath maths = new();
+            Random rand = new();
+            for (int j=1; j<10; j++)
+            {
+                double a = rand.NextInt64() + rand.NextDouble();
+                double b = rand.NextInt64() + rand.NextDouble();
+                double expectedResult = Math.Min(a, b);
+                Console.WriteLine("Input value is " + a + " and " + b);
+                Assert.AreEqual(expectedResult, maths.Minner(a, b));
+            }            
         }
 
         [TestMethod]
         public void TestMaxerEqual()
         {
-            var maths = new WendysMath();
-            double a = 27.48;
-            double b = 27.48;
-            Assert.AreEqual(a, maths.Maxer(a, b));
+            WendysMath maths = new();
+            Random rand = new();
+            for (int j = 0; j < 10; j++)
+            {
+                double a = rand.NextInt64() + rand.NextDouble();
+                double b = a;
+                Assert.AreEqual(a, maths.Maxer(a, b));
+            }
         }
 
         [TestMethod]
         public void TestMinnerEqual()
         {
-            var maths = new WendysMath();
-            double a = 27.48;
-            double b = 27.48;
-            Assert.AreEqual(a, maths.Minner(a, b));
+            WendysMath maths = new();
+            Random rand = new();
+            for (int j=0; j<10; j++)
+            {
+                double a = rand.NextInt64() + rand.NextDouble();
+                double b = a;
+                Assert.AreEqual(a, maths.Minner(a, b));
+            }
         }
 
         [TestMethod]
         public void TestPowerNegative()
         {
-            var maths = new WendysMath();
-            double a = 2;
-            int b = -3;
-            Assert.AreEqual(0.125, maths.Power(a, b));
+            WendysMath maths = new();
+            Random rand = new();
+            for (int j=1; j<10; j++)
+            {
+                var baseNum = rand.Next(100);
+                int exp = -j;
+                double expectedResult = Math.Pow(baseNum, exp);
+                Console.WriteLine("Input value is " + baseNum + " and " + exp);
+                Assert.AreEqual(expectedResult, maths.Power(baseNum, exp));
+
+            }
         }
 
         [TestMethod]
@@ -143,18 +166,31 @@ namespace MathTests
         [TestMethod]
         public void TestPowerZero()
         {
-            var maths = new WendysMath();
-            double a = 2;
-            int b = 0;
-            Assert.AreEqual(1, maths.Power(a, b));
+            WendysMath maths = new();
+            Random rand = new();
+            for (int j = 0; j < 10; j++)
+            {
+                double a = rand.NextInt64();
+                int b = 0;
+                Console.WriteLine("Input value is " + a + " and " + b);
+                Assert.AreEqual(1, maths.Power(a, b));
+
+            }
+            
         }
 
         [TestMethod]
         public void TestFloorer()
         {
-            var maths = new WendysMath();
-            double a = 27.58;
-            Assert.AreEqual(27, maths.Floorer(a));
+            WendysMath maths = new();
+            Random rand = new();
+            for (int j = 0; j < 10; j++)
+            {
+                double a = rand.NextInt64();
+                int expectedResult = (int)Math.Floor(a);
+                Console.WriteLine("Input value is " + a);
+                Assert.AreEqual(expectedResult, maths.Floorer(a));
+            }
         }
 
         [TestMethod]
@@ -168,9 +204,15 @@ namespace MathTests
         [TestMethod]
         public void TestCeilinger()
         {
-            var maths = new WendysMath();
-            double a = 27.58;
-            Assert.AreEqual(28, maths.Ceilinger(a));
+            WendysMath maths = new();
+            Random rand = new();
+            for (int j=0; j<10; j++)
+            {
+                double a = rand.Next() + rand.NextDouble();
+                int expectedResult = (int)Math.Ceiling(a);
+                Console.WriteLine("Input value is " + a + " and the Ceiling is " + expectedResult);
+                Assert.AreEqual(expectedResult, maths.Ceilinger(a));
+            }
         }
     }
 }

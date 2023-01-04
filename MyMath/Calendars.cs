@@ -10,7 +10,7 @@ namespace myMath
 {
     public class Calendars
     {
-        public static string GetDay(int day, Exception argumentOutOfRangeException)
+        public string GetDay(int day)
         {
             try
             {
@@ -31,7 +31,7 @@ namespace myMath
                     case 6:
                         return "Sunday";
                     default:
-                        throw argumentOutOfRangeException;
+                        throw new ArgumentOutOfRangeException();
                 }
             }
             catch (Exception)

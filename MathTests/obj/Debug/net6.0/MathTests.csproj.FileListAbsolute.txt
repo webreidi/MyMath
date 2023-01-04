@@ -86,8 +86,8 @@ C:\Users\webreidi\source\repos\MyMath\MathTests\bin\Debug\net6.0\zh-Hans\Microso
 C:\Users\webreidi\source\repos\MyMath\MathTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\webreidi\source\repos\MyMath\MathTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\webreidi\source\repos\MyMath\MathTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\webreidi\source\repos\MyMath\MathTests\bin\Debug\net6.0\myMath.dll
-C:\Users\webreidi\source\repos\MyMath\MathTests\bin\Debug\net6.0\myMath.pdb
+C:\Users\webreidi\source\repos\MyMath\MathTests\bin\Debug\net6.0\MyMath.dll
+C:\Users\webreidi\source\repos\MyMath\MathTests\bin\Debug\net6.0\MyMath.pdb
 C:\Users\webreidi\source\repos\MyMath\MathTests\obj\Debug\net6.0\MathTests.csproj.AssemblyReference.cache
 C:\Users\webreidi\source\repos\MyMath\MathTests\obj\Debug\net6.0\MathTests.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\webreidi\source\repos\MyMath\MathTests\obj\Debug\net6.0\MathTests.AssemblyInfoInputs.cache
