@@ -1,0 +1,15 @@
+C:\Users\webreidi\source\repos\MyMath\MyMath\bin\Debug\net7.0\myMath.deps.json
+C:\Users\webreidi\source\repos\MyMath\MyMath\bin\Debug\net7.0\myMath.dll
+C:\Users\webreidi\source\repos\MyMath\MyMath\bin\Debug\net7.0\myMath.pdb
+C:\Users\webreidi\source\repos\MyMath\MyMath\obj\Debug\net7.0\myMath.csproj.AssemblyReference.cache
+C:\Users\webreidi\source\repos\MyMath\MyMath\obj\Debug\net7.0\myMath.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\webreidi\source\repos\MyMath\MyMath\obj\Debug\net7.0\myMath.AssemblyInfoInputs.cache
+C:\Users\webreidi\source\repos\MyMath\MyMath\obj\Debug\net7.0\myMath.AssemblyInfo.cs
+C:\Users\webreidi\source\repos\MyMath\MyMath\obj\Debug\net7.0\myMath.csproj.CoreCompileInputs.cache
+C:\Users\webreidi\source\repos\MyMath\MyMath\obj\Debug\net7.0\myMath.dll
+C:\Users\webreidi\source\repos\MyMath\MyMath\obj\Debug\net7.0\refint\myMath.dll
+C:\Users\webreidi\source\repos\MyMath\MyMath\obj\Debug\net7.0\myMath.pdb
+C:\Users\webreidi\source\repos\MyMath\MyMath\obj\Debug\net7.0\ref\myMath.dll
+C:\Users\webreidi\source\repos\MyMath\MyMath\bin\Debug\net7.0\myMath.exe
+C:\Users\webreidi\source\repos\MyMath\MyMath\bin\Debug\net7.0\myMath.runtimeconfig.json
+C:\Users\webreidi\source\repos\MyMath\MyMath\obj\Debug\net7.0\myMath.genruntimeconfig.cache

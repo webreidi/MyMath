@@ -40,5 +40,10 @@ namespace myMath
             }
         }
 
+        public int DoubleNum(int x)
+        {
+            return x * 2;
+        }
+
     }
 }
