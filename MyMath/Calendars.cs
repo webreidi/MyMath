@@ -23,7 +23,7 @@ namespace myMath
                     4 => "Friday",
                     5 => "Saturday",
                     6 => "Sunday",
-                    _ => throw new ArgumentOutOfRangeException(),
+                    _ => throw new ArgumentOutOfRangeException()
                 };
             }
             catch (Exception)
