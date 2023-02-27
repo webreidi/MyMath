@@ -12,10 +12,13 @@ namespace myMath
             string? fullMessage;
             int num;
             SimpleMath myMath = new();
-            num = Helpers.GetInput();
-            myNum = myMath.DoubleNum(num);
-            fullMessage = myMessage + myNum;
-            Helpers.WriteMessage(fullMessage);
+            for (int j=0; j<10; j++) {
+                num = Helpers.GetInput();
+                myNum = myMath.DoubleNum(num);
+                fullMessage = myMessage + myNum;
+                Helpers.WriteMessage(fullMessage);
+            }
+
         }
 
      }
