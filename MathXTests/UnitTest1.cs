@@ -1,12 +1,14 @@
 namespace MathXTests;
+
 using myMath;
+using static myMath.Calendars;
 
 public class UnitTest1
 {
     [Fact]
     public void PrintMonthTest()
     {
-        Console.WriteLine("This is the PrintDay Test Running.");
+        //Console.WriteLine("This is the PrintDay Test Running.");
         Calendars calendars = new();
         Assert.Equal("January", calendars.GetMonth(0));
         Assert.Equal("February", calendars.GetMonth(1));
@@ -23,21 +25,68 @@ public class UnitTest1
         
     }
 
-        [Fact]
+    [Fact]
     public async void MonthThrowsAsync()
     {
-        Calendars calendars = new();
-        Func<Task> testCode = () => Task.Factory.StartNew(ThrowingMethod);
+        Func<Task> testCode = () => Task.Factory.StartNew(MonthThrowingMethod);
 
-        var ex = await Assert.ThrowsAsync<ArgumentOutOfRangeException>(testCode);
+        ArgumentOutOfRangeException ex = await Assert.ThrowsAsync<ArgumentOutOfRangeException>(testCode);
 
         Assert.IsType<ArgumentOutOfRangeException>(ex);
     }
 
-    void ThrowingMethod()
+    [Fact]
+    public async void DayThrowsAsync()
     {
-        Calendars calendars= new();
+        Func<Task> testCode = () => Task.Factory.StartNew(DayThrowingMethod);
+
+        ArgumentOutOfRangeException ex = await Assert.ThrowsAsync<ArgumentOutOfRangeException>(testCode);
+
+        Assert.IsType<ArgumentOutOfRangeException>(ex);
+    }
+
+    [Fact]
+    public void TestY2KChecker() {
+        string expected = "It is not January 1, 2000!";
+        using (StringWriter wr = new())
+        {
+            Console.SetOut(wr);
+            Y2KChecker.Check();
+            string actual = wr.ToString();
+            Assert.Equal(expected, actual);
+        };
+    }
+
+    [Fact]
+    public async void TestY2KCheckerThrowsAsync() {
+        Func<Task> testCode = () => Task.Factory.StartNew(DayThrowingMethod);
+
+        ApplicationException ex = await Assert.ThrowsAsync<ApplicationException>(testCode);
+
+        Assert.IsType<ApplicationException>(ex);
+    }
+    
+    private void MonthThrowingMethod()
+    {
+        Calendars calendars = new();
         calendars.GetMonth(12);
     }
 
+    private void DayThrowingMethod()
+    {
+        Calendars calendars = new();
+        calendars.GetDay(7);
+    }
+
+    private void Y2KCheckerThrowingMethod()
+    {
+        //unit test code
+        // create a ShimsContext cleans up shims
+//        using (ShimsContext.Create()) {
+//            // hook delegate to the shim method to redirect DateTime.Now
+//            // to return January 1st of 2000
+//            ShimDateTime.NowGet = () => new DateTime(2000, 1, 1);
+//            Y2KChecker.Check();
+ //       }
+    }
 }

@@ -1092,7 +1092,7 @@
       "xunit.runner.visualstudio/2.4.5": {},
       "myMath/1.0.0": {
         "runtime": {
-          "MyMath.dll": {}
+          "myMath.dll": {}
         }
       }
     }

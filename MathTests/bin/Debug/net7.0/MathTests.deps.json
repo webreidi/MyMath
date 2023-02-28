@@ -1079,7 +1079,7 @@
       },
       "myMath/1.0.0": {
         "runtime": {
-          "MyMath.dll": {}
+          "myMath.dll": {}
         }
       }
     }
