@@ -33,8 +33,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\myMath.csproj": {
-                "projectPath": "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\myMath.csproj"
+              "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\MyMath.csproj": {
+                "projectPath": "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\MyMath.csproj"
               }
             }
           }
@@ -52,6 +52,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.3.2, )"
+            },
+            "Microsoft.QualityTools.Testing.Fakes": {
+              "target": "Package",
+              "version": "[16.11.230815, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

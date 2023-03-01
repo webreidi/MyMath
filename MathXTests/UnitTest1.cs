@@ -2,6 +2,7 @@ namespace MathXTests;
 
 using myMath;
 using static myMath.Calendars;
+using Microsoft.QualityTools.Testing.Fakes;
 
 public class UnitTest1
 {
@@ -82,11 +83,11 @@ public class UnitTest1
     {
         //unit test code
         // create a ShimsContext cleans up shims
-//        using (ShimsContext.Create()) {
-//            // hook delegate to the shim method to redirect DateTime.Now
+        using (ShimsContext.Create()) {
+            // hook delegate to the shim method to redirect DateTime.Now
 //            // to return January 1st of 2000
-//            ShimDateTime.NowGet = () => new DateTime(2000, 1, 1);
-//            Y2KChecker.Check();
- //       }
+            System.Fakes.ShimDateTime.NowGet = () => new DateTime(2000, 1, 1);
+            Y2KChecker.Check();
+        }
     }
 }
