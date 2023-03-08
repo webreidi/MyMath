@@ -2,7 +2,11 @@ namespace MathXTests;
 
 using myMath;
 using static myMath.Calendars;
-using Microsoft.QualityTools.Testing.Fakes;
+using Moq;
+using System;
+using Application.Providers;
+using Application.Services;
+
 
 public class UnitTest1
 {
@@ -60,7 +64,7 @@ public class UnitTest1
 
     [Fact]
     public async void TestY2KCheckerThrowsAsync() {
-        Func<Task> testCode = () => Task.Factory.StartNew(DayThrowingMethod);
+        Func<Task> testCode = () => Task.Factory.StartNew(Y2KCheckerThrowingMethod);
 
         ApplicationException ex = await Assert.ThrowsAsync<ApplicationException>(testCode);
 
@@ -81,13 +85,14 @@ public class UnitTest1
 
     private void Y2KCheckerThrowingMethod()
     {
-        //unit test code
-        // create a ShimsContext cleans up shims
-        using (ShimsContext.Create()) {
-            // hook delegate to the shim method to redirect DateTime.Now
-//            // to return January 1st of 2000
-            System.Fakes.ShimDateTime.NowGet = () => new DateTime(2000, 1, 1);
+            var mock = new Mock<OnelineWrapperDateTimeProvider>();
+            mock.Setup(x => x.Now)
+                .Returns(new DateTime(2021, 07, 20));
+    
+             var user = new OnelineWrapperUserService(mock.Object);
+
             Y2KChecker.Check();
-        }
     }
+
+
 }

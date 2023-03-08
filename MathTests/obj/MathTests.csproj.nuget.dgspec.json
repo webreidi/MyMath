@@ -83,16 +83,16 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\myMath.csproj": {
+    "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\MyMath.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\myMath.csproj",
-        "projectName": "myMath",
-        "projectPath": "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\myMath.csproj",
+        "projectUniqueName": "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\MyMath.csproj",
+        "projectName": "MyMath",
+        "projectPath": "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\MyMath.csproj",
         "packagesPath": "C:\\.tools\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\obj\\",
         "projectStyle": "PackageReference",
@@ -143,7 +143,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

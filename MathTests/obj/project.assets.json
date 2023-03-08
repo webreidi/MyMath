@@ -1789,14 +1789,14 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "myMath/1.0.0": {
+      "MyMath/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
-          "bin/placeholder/myMath.dll": {}
+          "bin/placeholder/MyMath.dll": {}
         },
         "runtime": {
-          "bin/placeholder/myMath.dll": {}
+          "bin/placeholder/MyMath.dll": {}
         }
       }
     }
@@ -6280,10 +6280,10 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "myMath/1.0.0": {
+    "MyMath/1.0.0": {
       "type": "project",
-      "path": "../MyMath/myMath.csproj",
-      "msbuildProject": "../MyMath/myMath.csproj"
+      "path": "../MyMath/MyMath.csproj",
+      "msbuildProject": "../MyMath/MyMath.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6291,8 +6291,8 @@
       "MSTest.TestAdapter >= 2.2.7",
       "MSTest.TestFramework >= 2.2.7",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
-      "coverlet.collector >= 3.1.0",
-      "myMath >= 1.0.0"
+      "MyMath >= 1.0.0",
+      "coverlet.collector >= 3.1.0"
     ]
   },
   "packageFolders": {
@@ -6378,7 +6378,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
