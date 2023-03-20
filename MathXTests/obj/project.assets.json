@@ -2051,14 +2051,14 @@
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "MyMath/1.0.0": {
+      "myMath/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
-          "bin/placeholder/MyMath.dll": {}
+          "bin/placeholder/myMath.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MyMath.dll": {}
+          "bin/placeholder/myMath.dll": {}
         }
       }
     }
@@ -6711,19 +6711,19 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "MyMath/1.0.0": {
+    "myMath/1.0.0": {
       "type": "project",
-      "path": "../MyMath/MyMath.csproj",
-      "msbuildProject": "../MyMath/MyMath.csproj"
+      "path": "../MyMath/myMath.csproj",
+      "msbuildProject": "../MyMath/myMath.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.NET.Test.Sdk >= 17.3.2",
       "Microsoft.QualityTools.Testing.Fakes >= 16.11.230815",
-      "MyMath >= 1.0.0",
       "coverlet.collector >= 3.1.2",
       "moq >= 4.18.4",
+      "myMath >= 1.0.0",
       "xunit >= 2.4.2",
       "xunit.runner.visualstudio >= 2.4.5"
     ]
@@ -6735,11 +6735,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\webreidi\\Source\\MyMath\\MathXTests\\MathXTests.csproj",
+      "projectUniqueName": "c:\\Users\\webreidi\\Source\\MyMath\\MathXTests\\MathXTests.csproj",
       "projectName": "MathXTests",
-      "projectPath": "C:\\Users\\webreidi\\Source\\MyMath\\MathXTests\\MathXTests.csproj",
+      "projectPath": "c:\\Users\\webreidi\\Source\\MyMath\\MathXTests\\MathXTests.csproj",
       "packagesPath": "C:\\.tools\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\webreidi\\Source\\MyMath\\MathXTests\\obj\\",
+      "outputPath": "c:\\Users\\webreidi\\Source\\MyMath\\MathXTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6761,8 +6761,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\MyMath.csproj": {
-              "projectPath": "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\MyMath.csproj"
+            "c:\\Users\\webreidi\\Source\\MyMath\\MyMath\\myMath.csproj": {
+              "projectPath": "c:\\Users\\webreidi\\Source\\MyMath\\MyMath\\myMath.csproj"
             }
           }
         }

@@ -61,9 +61,9 @@ namespace myMath
 
         public static class Y2KChecker
         {
-            public static void Check()
+            public static void Check(DateTime whatTime)
             {
-                if (DateTime.Now == new DateTime(2000, 1, 1))
+                if (whatTime == new DateTime(2000, 1, 1))
                     throw new ApplicationException("y2kbug!");
                 Helpers.WriteMessage("It is not January 1, 2000!");
             }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\webreidi\\Source\\MyMath\\MathXTests\\MathXTests.csproj": {}
+    "c:\\Users\\webreidi\\Source\\MyMath\\MathXTests\\MathXTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\webreidi\\Source\\MyMath\\MathXTests\\MathXTests.csproj": {
+    "c:\\Users\\webreidi\\Source\\MyMath\\MathXTests\\MathXTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\webreidi\\Source\\MyMath\\MathXTests\\MathXTests.csproj",
+        "projectUniqueName": "c:\\Users\\webreidi\\Source\\MyMath\\MathXTests\\MathXTests.csproj",
         "projectName": "MathXTests",
-        "projectPath": "C:\\Users\\webreidi\\Source\\MyMath\\MathXTests\\MathXTests.csproj",
+        "projectPath": "c:\\Users\\webreidi\\Source\\MyMath\\MathXTests\\MathXTests.csproj",
         "packagesPath": "C:\\.tools\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\webreidi\\Source\\MyMath\\MathXTests\\obj\\",
+        "outputPath": "c:\\Users\\webreidi\\Source\\MyMath\\MathXTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\MyMath.csproj": {
-                "projectPath": "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\MyMath.csproj"
+              "c:\\Users\\webreidi\\Source\\MyMath\\MyMath\\myMath.csproj": {
+                "projectPath": "c:\\Users\\webreidi\\Source\\MyMath\\MyMath\\myMath.csproj"
               }
             }
           }
@@ -98,14 +98,14 @@
         }
       }
     },
-    "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\MyMath.csproj": {
+    "c:\\Users\\webreidi\\Source\\MyMath\\MyMath\\myMath.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\MyMath.csproj",
-        "projectName": "MyMath",
-        "projectPath": "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\MyMath.csproj",
+        "projectUniqueName": "c:\\Users\\webreidi\\Source\\MyMath\\MyMath\\myMath.csproj",
+        "projectName": "myMath",
+        "projectPath": "c:\\Users\\webreidi\\Source\\MyMath\\MyMath\\myMath.csproj",
         "packagesPath": "C:\\.tools\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\obj\\",
+        "outputPath": "c:\\Users\\webreidi\\Source\\MyMath\\MyMath\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -7,9 +7,9 @@ namespace Application.Services
     {
         public OnelineWrapperUserService(OnelineWrapperDateTimeProvider dateTimeProvider)
         {
-            CreatedAt = dateTimeProvider.Now;
+            whatTime = dateTimeProvider.Now;
         }
 
-        public DateTime CreatedAt { get; }
+        public DateTime whatTime { get; }
     }
 }

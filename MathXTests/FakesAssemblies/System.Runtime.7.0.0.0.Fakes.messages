@@ -1,0 +1,582 @@
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for Microsoft.Win32.SafeHandles.SafeFileHandle: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for Microsoft.Win32.SafeHandles.SafeWaitHandle: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Action: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Action<T>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Action<T1, T2>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Action<T1, T2, T3>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Action<T1, T2, T3, T4>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Action<T1, T2, T3, T4, T5>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Action<T1, T2, T3, T4, T5, T6>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Action<T1, T2, T3, T4, T5, T6, T7>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Action<T1, T2, T3, T4, T5, T6, T7, T8>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Action<T1, T2, T3, T4, T5, T6, T7, T8, T9>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Activator: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.AppContext: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.AppDomain: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.AppDomainSetup: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.ApplicationId: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Array: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.AssemblyLoadEventHandler: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.AsyncCallback: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.AttributeUsageAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.BitConverter: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Buffer: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.CharEnumerator: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.CLSCompliantAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Comparison<T>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Convert: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Converter<TInput, TOutput>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.DBNull: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Delegate: System.Delegate cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Enum: System.Enum cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Environment: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.EventHandler: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.EventHandler<TEventArgs>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.ExecutionEngineException: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Func<TResult>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Func<T, TResult>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Func<T1, T2, TResult>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Func<T1, T2, T3, TResult>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Func<T1, T2, T3, T4, TResult>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Func<T1, T2, T3, T4, T5, TResult>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Func<T1, T2, T3, T4, T5, T6, TResult>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Func<T1, T2, T3, T4, T5, T6, T7, TResult>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Func<T1, T2, T3, T4, T5, T6, T7, T8, TResult>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.GC: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.IndexOutOfRangeException: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.InsufficientExecutionStackException: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.InsufficientMemoryException: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.InvalidProgramException: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.IParsable<TSelf>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.ISpanFormattable: method System.Boolean System.ISpanFormattable.TryFormat(System.ISpanFormattable this, System.Span`1 destination, System.Int32* charsWritten, System.ReadOnlySpan`1 format, System.IFormatProvider provider) unstubbable: Method is abstract and could not be stubbed, Parameter System.Span`1 in method ISpanFormattable.TryFormat is not supported because it is a ref struct type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.ISpanParsable<TSelf>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.LoaderOptimizationAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Math: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.MathF: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.MTAThreadAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.MulticastDelegate: System.MulticastDelegate cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.MulticastNotSupportedException: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.NonSerializedAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Nullable: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.ObsoleteAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.OperatingSystem: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.ParamArrayAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Predicate<T>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.ResolveEventHandler: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.SerializableAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.StackOverflowException: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.STAThreadAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for string: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.StringNormalizationExtensions: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.TimeZone: Type is obsolete.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.TimeZoneInfo: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Tuple: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.TupleExtensions: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.TypeInitializationException: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.UnhandledExceptionEventHandler: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.ValueType: System.ValueType cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Version: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.WeakReference<T>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Buffers.MemoryManager<T>: method System.Span`1<!0> System.Buffers.MemoryManager`1.GetSpan(System.Buffers.MemoryManager`1 this) unstubbable: Method is abstract and could not be stubbed, Parameter System.Span`1<!0> in method MemoryManager`1.GetSpan is not supported because it is a ref struct type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Buffers.ReadOnlySpanAction<T, TArg>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Buffers.SpanAction<T, TArg>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Buffers.Text.Base64: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.CodeDom.Compiler.GeneratedCodeAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Collections.Comparer: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Collections.IHashCodeProvider: Type is obsolete.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Collections.Generic.KeyValuePair: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.ComponentModel.EditorBrowsableAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.ConditionalAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.Debug: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.DebuggableAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.Debugger: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.DebuggerBrowsableAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.DebuggerDisplayAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.DebuggerHiddenAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.DebuggerNonUserCodeAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.DebuggerStepperBoundaryAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.DebuggerStepThroughAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.DebuggerTypeProxyAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.DebuggerVisualizerAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.StackTraceHiddenAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.UnreachableException: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.CodeAnalysis.AllowNullAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.CodeAnalysis.DisallowNullAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.CodeAnalysis.MaybeNullAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.CodeAnalysis.MemberNotNullAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.CodeAnalysis.NotNullAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.CodeAnalysis.NotNullWhenAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.CodeAnalysis.UnscopedRefAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.CodeAnalysis.StringSyntaxAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.CodeAnalysis.SuppressMessageAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Globalization.CharUnicodeInfo: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Globalization.CompareInfo: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Globalization.DateTimeFormatInfo: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Globalization.EastAsianLunisolarCalendar: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Globalization.GlobalizationExtensions: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Globalization.IdnMapping: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Globalization.ISOWeek: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Globalization.NumberFormatInfo: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Globalization.SortKey: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Globalization.SortVersion: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Globalization.TextElementEnumerator: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Globalization.TextInfo: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.IO.BufferedStream: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.IO.Directory: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.IO.DirectoryInfo: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.IO.File: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.IO.FileInfo: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.IO.FileStreamOptions: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.IO.InvalidDataException: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.IO.Path: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.IO.RandomAccess: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.IO.Enumeration.FileSystemEnumerator<TResult>: method !0 System.IO.Enumeration.FileSystemEnumerator`1.TransformEntry(System.IO.Enumeration.FileSystemEnumerator`1 this, System.IO.Enumeration.FileSystemEntry* entry) unstubbable: Method is abstract and could not be stubbed, Parameter System.IO.Enumeration.FileSystemEntry* in method FileSystemEnumerator`1.TransformEntry is not supported because it is a ref struct type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.IO.Enumeration.FileSystemName: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Net.WebUtility: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.BitOperations: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IAdditionOperators<TSelf, TOther, TResult>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IAdditiveIdentity<TSelf, TResult>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IBinaryFloatingPointIeee754<TSelf>: method System.Boolean System.Numerics.IFloatingPoint`1.TryWriteExponentBigEndian(System.Numerics.IFloatingPoint`1 this, System.Span`1 destination, System.Int32* bytesWritten) unstubbable: Method is abstract and could not be stubbed, Parameter System.Span`1 in method IBinaryFloatingPointIeee754`1.TryWriteExponentBigEndian is not supported because it is a ref struct type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IBinaryInteger<TSelf>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IBinaryNumber<TSelf>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IBitwiseOperators<TSelf, TOther, TResult>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IComparisonOperators<TSelf, TOther, TResult>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IDecrementOperators<TSelf>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IDivisionOperators<TSelf, TOther, TResult>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IEqualityOperators<TSelf, TOther, TResult>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IExponentialFunctions<TSelf>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IFloatingPointConstants<TSelf>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IFloatingPointIeee754<TSelf>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IFloatingPoint<TSelf>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IHyperbolicFunctions<TSelf>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IIncrementOperators<TSelf>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.ILogarithmicFunctions<TSelf>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IMinMaxValue<TSelf>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IModulusOperators<TSelf, TOther, TResult>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IMultiplicativeIdentity<TSelf, TResult>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IMultiplyOperators<TSelf, TOther, TResult>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.INumberBase<TSelf>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.INumber<TSelf>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IPowerFunctions<TSelf>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IRootFunctions<TSelf>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IShiftOperators<TSelf, TOther, TResult>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.ISignedNumber<TSelf>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.ISubtractionOperators<TSelf, TOther, TResult>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.ITrigonometricFunctions<TSelf>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IUnaryNegationOperators<TSelf, TResult>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IUnaryPlusOperators<TSelf, TResult>: Interface {0} is not supported because it contains a static method.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Numerics.IUnsignedNumber<TSelf>: method !0 System.Numerics.INumberBase`1.Parse(System.ReadOnlySpan`1 s, System.Globalization.NumberStyles style, System.IFormatProvider provider) unstubbable: Method is abstract and could not be stubbed, Parameter System.ReadOnlySpan`1 in method IUnsignedNumber`1.Parse is not supported because it is a ref struct type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.AmbiguousMatchException: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.AssemblyAlgorithmIdAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.AssemblyCompanyAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.AssemblyConfigurationAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.AssemblyCopyrightAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.AssemblyCultureAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.AssemblyDefaultAliasAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.AssemblyDelaySignAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.AssemblyDescriptionAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.AssemblyFileVersionAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.AssemblyFlagsAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.AssemblyInformationalVersionAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.AssemblyKeyFileAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.AssemblyKeyNameAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.AssemblyMetadataAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.AssemblyName: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.AssemblyProductAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.AssemblySignatureKeyAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.AssemblyTitleAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.AssemblyTrademarkAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.AssemblyVersionAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.CustomAttributeExtensions: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.DefaultMemberAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.IntrospectionExtensions: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.MemberFilter: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.Missing: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.ModuleResolveEventHandler: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.NullabilityInfo: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.NullabilityInfoContext: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.ObfuscateAssemblyAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.ObfuscationAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.Pointer: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.ReflectionTypeLoadException: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.RuntimeReflectionExtensions: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.StrongNameKeyPair: Type is obsolete.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.TargetInvocationException: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.TargetParameterCountException: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Reflection.TypeFilter: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Resources.NeutralResourcesLanguageAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Resources.ResourceReader: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Resources.SatelliteContractVersionAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.AmbiguousImplementationException: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.AssemblyTargetedPatchBandAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.ControlledExecution: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.GCSettings: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.JitInfo: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.MemoryFailPoint: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.ProfileOptimization: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.TargetedPatchingOptOutAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.AccessedThroughPropertyAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.AsyncIteratorStateMachineAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.AsyncMethodBuilderAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.AsyncStateMachineAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.CallerArgumentExpressionAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.CallerFilePathAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.CallerLineNumberAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.CallerMemberNameAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.CompilerFeatureRequiredAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.CompilerGeneratedAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.ConditionalWeakTable<TKey, TValue>: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.DateTimeConstantAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.DecimalConstantAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.DefaultDependencyAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.DependencyAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.DisablePrivateReflectionAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.DisableRuntimeMarshallingAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.EnumeratorCancellationAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.ExtensionAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.FixedAddressValueTypeAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.FixedBufferAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.FormattableStringFactory: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.IndexerNameAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.InternalsVisibleToAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.InterpolatedStringHandlerArgumentAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.InterpolatedStringHandlerAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.IsByRefLikeAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.IsConst: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.IsExternalInit: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.IsReadOnlyAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.IsVolatile: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.IteratorStateMachineAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.MethodImplAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.ModuleInitializerAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.PreserveBaseOverridesAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.RequiredMemberAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.ReferenceAssemblyAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.RuntimeCompatibilityAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.RuntimeFeature: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.RuntimeHelpers: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.RuntimeWrappedException: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.SkipLocalsInitAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.SpecialNameAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.StringFreezingAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.SuppressIldasmAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.SwitchExpressionException: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.TupleElementNamesAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.TypeForwardedFromAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.TypeForwardedToAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.Unsafe: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.CompilerServices.UnsafeValueTypeAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.ConstrainedExecution.PrePrepareMethodAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.ConstrainedExecution.ReliabilityContractAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.ExceptionServices.ExceptionDispatchInfo: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.InteropServices.ComVisibleAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.InteropServices.FieldOffsetAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.InteropServices.InAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.InteropServices.OutAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.InteropServices.RuntimeInformation: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.InteropServices.StructLayoutAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.InteropServices.SuppressGCTransitionAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.InteropServices.Marshalling.ContiguousCollectionMarshallerAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.InteropServices.Marshalling.CustomMarshallerAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.InteropServices.Marshalling.NativeMarshallingAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller<T, TUnmanagedElement>: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.InteropServices.Marshalling.SpanMarshaller<T, TUnmanagedElement>: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.Serialization.OnDeserializedAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.Serialization.OnDeserializingAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.Serialization.OnSerializedAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.Serialization.OnSerializingAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.Serialization.OptionalFieldAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.Serialization.SafeSerializationEventArgs: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.Serialization.SerializationInfo: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.Serialization.SerializationInfoEnumerator: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.Versioning.ComponentGuaranteesAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.Versioning.FrameworkName: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.Versioning.ObsoletedOSPlatformAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.Versioning.OSPlatformAttribute: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.Versioning.RequiresPreviewFeaturesAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.Versioning.ResourceConsumptionAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.Versioning.ResourceExposureAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.Versioning.SupportedOSPlatformAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.Versioning.SupportedOSPlatformGuardAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.Versioning.TargetFrameworkAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.Versioning.TargetPlatformAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.Versioning.UnsupportedOSPlatformAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.Versioning.UnsupportedOSPlatformGuardAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Runtime.Versioning.VersioningHelper: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Security.AllowPartiallyTrustedCallersAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Security.IPermission: Type is obsolete.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Security.IStackWalk: Type is obsolete.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Security.PermissionSet: Type is obsolete.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Security.SecurityCriticalAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Security.SecurityElement: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Security.SecurityRulesAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Security.SecuritySafeCriticalAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Security.SecurityTransparentAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Security.SecurityTreatAsSafeAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Security.SuppressUnmanagedCodeSecurityAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Security.UnverifiableCodeAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Security.Permissions.CodeAccessSecurityAttribute: Type is obsolete.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Security.Permissions.SecurityAttribute: Type is obsolete.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Security.Permissions.SecurityPermissionAttribute: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Text.DecoderExceptionFallback: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Text.DecoderExceptionFallbackBuffer: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Text.DecoderFallbackException: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Text.DecoderReplacementFallback: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Text.DecoderReplacementFallbackBuffer: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Text.EncoderExceptionFallback: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Text.EncoderExceptionFallbackBuffer: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Text.EncoderFallbackException: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Text.EncoderReplacementFallback: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Text.EncoderReplacementFallbackBuffer: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Text.EncodingInfo: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Text.StringBuilder: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Text.Unicode.Utf8: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Threading.PeriodicTimer: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Threading.Timeout: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Threading.Timer: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Threading.TimerCallback: Type is sealed.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Threading.WaitHandleExtensions: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Threading.Tasks.TaskAsyncEnumerableExtensions: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate stub for System.Threading.Tasks.TaskExtensions: Type has no Constructors visible to the assembly. The Constructor itself or a parameter may not be visible..
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for Microsoft.Win32.SafeHandles.CriticalHandleMinusOneIsInvalid: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for Microsoft.Win32.SafeHandles.SafeFileHandle: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for Microsoft.Win32.SafeHandles.SafeWaitHandle: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.ArgIterator: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Array: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for bool: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for char: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for decimal: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Delegate: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for double: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Enum: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.ExecutionEngineException: Type is obsolete.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for short: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for int: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for long: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for nint: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Math: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.MulticastDelegate: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Skipping method System.Int32 System.Nullable.Compare(System.Nullable`1 n1, System.Nullable`1 n2), method System.Int32 System.Nullable.Compare(System.Nullable`1 n1, System.Nullable`1 n2) unstubbable: Cannot specify both a class constraint and the 'class' or 'struct' constraint
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Skipping method System.Boolean System.Nullable.Equals(System.Nullable`1 n1, System.Nullable`1 n2), method System.Boolean System.Nullable.Equals(System.Nullable`1 n1, System.Nullable`1 n2) unstubbable: Cannot specify both a class constraint and the 'class' or 'struct' constraint
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Skipping method !!0 System.Nullable.GetValueRefOrDefaultRef(System.Nullable`1<!!0>& nullable), method !!0 System.Nullable.GetValueRefOrDefaultRef(System.Nullable`1<!!0>& nullable) unstubbable: Cannot specify both a class constraint and the 'class' or 'struct' constraint
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Nullable<T>: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for object: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.RuntimeArgumentHandle: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.RuntimeTypeHandle: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for sbyte: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for float: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for string: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.TimeZone: Type is obsolete.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.TypedReference: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for ushort: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for uint: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for ulong: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for nuint: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.ValueTuple<T1, T2, T3, T4, T5, T6, T7, TRest>: type System.ValueTuple`8 unstubbable: Unsupported constraint type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.ValueType: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for void: {0} cannot be stubbed as it is a Special Type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.AmbiguousMatchException: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.Assembly: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.AssemblyAlgorithmIdAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.AssemblyCompanyAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.AssemblyConfigurationAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.AssemblyCopyrightAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.AssemblyCultureAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.AssemblyDefaultAliasAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.AssemblyDelaySignAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.AssemblyDescriptionAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.AssemblyFileVersionAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.AssemblyFlagsAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.AssemblyInformationalVersionAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.AssemblyKeyFileAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.AssemblyKeyNameAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.AssemblyMetadataAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.AssemblyName: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.AssemblyNameProxy: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.AssemblyProductAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.AssemblySignatureKeyAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.AssemblyTitleAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.AssemblyTrademarkAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.AssemblyVersionAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.Binder: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.ConstructorInfo: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.CustomAttributeData: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.CustomAttributeExtensions: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.CustomAttributeFormatException: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.CustomAttributeNamedArgument: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.CustomAttributeTypedArgument: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.DefaultMemberAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.EventInfo: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.ExceptionHandlingClause: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.FieldInfo: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.InterfaceMapping: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.IntrospectionExtensions: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.InvalidFilterCriteriaException: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.LocalVariableInfo: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.ManifestResourceInfo: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.MemberFilter: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.MemberInfo: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.MethodBase: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.MethodBody: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.MethodInfo: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.Missing: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.Module: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.ModuleResolveEventHandler: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.NullabilityInfo: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.NullabilityInfoContext: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.ObfuscateAssemblyAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.ObfuscationAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.ParameterInfo: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.ParameterModifier: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.Pointer: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.PropertyInfo: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.ReflectionContext: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.ReflectionTypeLoadException: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.RuntimeReflectionExtensions: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.StrongNameKeyPair: Type is obsolete.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.TargetException: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.TargetInvocationException: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.TargetParameterCountException: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.TypeDelegator: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.TypeFilter: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Reflection.TypeInfo: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.AccessedThroughPropertyAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.AsyncIteratorMethodBuilder: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.AsyncIteratorStateMachineAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.AsyncMethodBuilderAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.AsyncStateMachineAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.AsyncTaskMethodBuilder: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.AsyncTaskMethodBuilder<TResult>: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder<TResult>: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.AsyncVoidMethodBuilder: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.CallConvCdecl: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.CallConvFastcall: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.CallConvMemberFunction: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.CallConvStdcall: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.CallConvSuppressGCTransition: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.CallConvThiscall: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.CallerArgumentExpressionAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.CallerFilePathAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.CallerLineNumberAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.CallerMemberNameAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.CompilationRelaxationsAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.CompilerFeatureRequiredAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.CompilerGeneratedAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.CompilerGlobalScopeAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.ConditionalWeakTable<TKey, TValue>: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.ConfiguredAsyncDisposable: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable<T>: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.ConfiguredTaskAwaitable: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.ConfiguredTaskAwaitable<TResult>: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.CustomConstantAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.DateTimeConstantAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.DecimalConstantAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.DefaultDependencyAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.DefaultInterpolatedStringHandler: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.DependencyAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.DisablePrivateReflectionAttribute: Type is obsolete.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.DisableRuntimeMarshallingAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.DiscardableAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.EnumeratorCancellationAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.ExtensionAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.FixedAddressValueTypeAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.FixedBufferAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.FormattableStringFactory: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.IndexerNameAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.InternalsVisibleToAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.InterpolatedStringHandlerArgumentAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.InterpolatedStringHandlerAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.IsByRefLikeAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.IsConst: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.IsExternalInit: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.IsReadOnlyAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.IsVolatile: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.IteratorStateMachineAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.MethodImplAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.ModuleInitializerAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder<TResult>: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.PreserveBaseOverridesAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.RequiredMemberAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.ReferenceAssemblyAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.RuntimeCompatibilityAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.RuntimeFeature: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.RuntimeHelpers: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.RuntimeWrappedException: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.SkipLocalsInitAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.SpecialNameAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.StateMachineAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.StringFreezingAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.StrongBox<T>: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.SuppressIldasmAttribute: Type is obsolete.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.SwitchExpressionException: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.TaskAwaiter: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.TaskAwaiter<TResult>: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.TupleElementNamesAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.TypeForwardedFromAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.TypeForwardedToAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.Unsafe: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.UnsafeValueTypeAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.ValueTaskAwaiter: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.ValueTaskAwaiter<TResult>: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.CompilerServices.YieldAwaitable: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.ConstrainedExecution.PrePrepareMethodAttribute: Type is obsolete.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.ConstrainedExecution.ReliabilityContractAttribute: Type is obsolete.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute: Type is obsolete.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.InteropServices.ComVisibleAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.InteropServices.CriticalHandle: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.InteropServices.ExternalException: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.InteropServices.FieldOffsetAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.InteropServices.GCHandle: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.InteropServices.InAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.InteropServices.OSPlatform: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.InteropServices.OutAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.InteropServices.RuntimeInformation: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.InteropServices.SafeBuffer: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.InteropServices.SafeHandle: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.InteropServices.StructLayoutAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.InteropServices.SuppressGCTransitionAttribute: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller<T, TUnmanagedElement>: type System.Runtime.InteropServices.Marshalling.ReadOnlySpanMarshaller`2 unstubbable: Unsupported constraint type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.InteropServices.Marshalling.SpanMarshaller<T, TUnmanagedElement>: type System.Runtime.InteropServices.Marshalling.SpanMarshaller`2 unstubbable: Unsupported constraint type.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Runtime.Remoting.ObjectHandle: Type is not supported because of internal limitations.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Security.PermissionSet: Type is obsolete.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Security.SecurityTreatAsSafeAttribute: Type is obsolete.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Security.Permissions.CodeAccessSecurityAttribute: Type is obsolete.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Security.Permissions.SecurityAttribute: Type is obsolete.
+C:\Users\webreidi\Source\MyMath\MathXTests\Fakes\System.Runtime.fakes : warning : Cannot generate shim for System.Security.Permissions.SecurityPermissionAttribute: Type is obsolete.

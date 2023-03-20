@@ -39,4 +39,11 @@ public class PrimerTests
         Primer primer = new();
         Assert.True(primer.IsPrime(17));
     }
+
+    [Fact]
+    public void Primer_ZeroShouldBeFalse()
+    {
+        Primer primer = new();
+        Assert.False(primer.IsPrime(0));
+    }
 }

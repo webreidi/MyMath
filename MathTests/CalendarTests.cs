@@ -1,8 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using myMath;
 
@@ -24,5 +21,32 @@ namespace MathTests
             Assert.AreEqual("Saturday", calendars.GetDay(5));
             Assert.AreEqual("Sunday", calendars.GetDay(6));
         }   
+
+        [TestMethod]
+        public void PrintMonthTest()
+        {
+            Calendars calendars = new();
+            Assert.AreEqual("January", calendars.GetMonth(0));
+        }
+
+        [TestMethod]
+        public void PrintDayThrowsTest()
+        {
+            //ArgumentOutOfRangeException ex = PrintDayThrow();
+            //Assert.AreEqual(new ArgumentOutOfRangeException(), ex);
+        }
+
+        public async Task PrintDayThrow()
+        {
+            Func<Task> testCode = () => Task.Factory.StartNew(DayThrowingMethod);
+
+            ArgumentOutOfRangeException ex = await Assert.ThrowsExceptionAsync<ArgumentOutOfRangeException>(testCode);
+
+        }
+
+        public void DayThrowingMethod() {
+            Calendars calendars = new();
+            calendars.GetDay(7);
+        }
     }
 }
