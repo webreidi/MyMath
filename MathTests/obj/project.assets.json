@@ -1789,14 +1789,14 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "MyMath/1.0.0": {
+      "myMath/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
-          "bin/placeholder/MyMath.dll": {}
+          "bin/placeholder/myMath.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MyMath.dll": {}
+          "bin/placeholder/myMath.dll": {}
         }
       }
     }
@@ -6280,10 +6280,10 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "MyMath/1.0.0": {
+    "myMath/1.0.0": {
       "type": "project",
-      "path": "../MyMath/MyMath.csproj",
-      "msbuildProject": "../MyMath/MyMath.csproj"
+      "path": "../MyMath/myMath.csproj",
+      "msbuildProject": "../MyMath/myMath.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6291,8 +6291,8 @@
       "MSTest.TestAdapter >= 2.2.7",
       "MSTest.TestFramework >= 2.2.7",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
-      "MyMath >= 1.0.0",
-      "coverlet.collector >= 3.1.0"
+      "coverlet.collector >= 3.1.0",
+      "myMath >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6302,11 +6302,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\webreidi\\Source\\MyMath\\MathTests\\MathTests.csproj",
+      "projectUniqueName": "c:\\Users\\webreidi\\Source\\MyMath\\MathTests\\MathTests.csproj",
       "projectName": "MathTests",
-      "projectPath": "C:\\Users\\webreidi\\Source\\MyMath\\MathTests\\MathTests.csproj",
+      "projectPath": "c:\\Users\\webreidi\\Source\\MyMath\\MathTests\\MathTests.csproj",
       "packagesPath": "C:\\.tools\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\webreidi\\Source\\MyMath\\MathTests\\obj\\",
+      "outputPath": "c:\\Users\\webreidi\\Source\\MyMath\\MathTests\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -6329,8 +6329,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\MyMath.csproj": {
-              "projectPath": "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\MyMath.csproj"
+            "c:\\Users\\webreidi\\Source\\MyMath\\MyMath\\myMath.csproj": {
+              "projectPath": "c:\\Users\\webreidi\\Source\\MyMath\\MyMath\\myMath.csproj"
             }
           }
         }
@@ -6378,7 +6378,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -29,7 +29,7 @@ namespace MathTests
                     Console.SetIn(reader);
                     Program.Main();
                     string consoleOutput = writer.ToString();
-                    string expectedOutput = "Please enter a number: Hello World! " + doubled[j];
+                    string expectedOutput = "Please enter a number: Select which operation to perform: [1] Double, [2] Square, [3] Add to Self, [4] Multiply to Self\nHello World! Your original number is " + nums[j] + " and after the operation it is " + doubled[j];
                     Console.WriteLine(expectedOutput);
                     Assert.AreEqual(expectedOutput, consoleOutput.TrimEnd());
                 }

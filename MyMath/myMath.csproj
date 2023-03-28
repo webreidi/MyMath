@@ -7,4 +7,9 @@
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
+	<ItemGroup>
+  		<InternalsVisibleTo Include="MathTests" />
+  		<InternalsVisibleTo Include="MathXTests" />
+	</ItemGroup>
+
 </Project>
