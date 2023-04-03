@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.Specialized;
-using System.Linq;
-using System.Text;
-using System.Text.Json.Serialization;
-using System.Threading.Tasks;
-
-namespace myMath
+﻿namespace myMath
 {
     public class Calendars
     {
@@ -59,6 +51,14 @@ namespace myMath
             }
         }
 
+        public DateTime GetTomorrow() {
+            DateTime today = DateTime.Now;
+            TimeSpan duration = new(1, 0, 0, 0);
+            DateTime tomorrow = today.Add(duration);
+            return tomorrow;
+
+        }
+        
         public static class Y2KChecker
         {
             public static void Check(DateTime whatTime)

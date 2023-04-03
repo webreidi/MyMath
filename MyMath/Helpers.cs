@@ -13,7 +13,7 @@ namespace myMath
             Console.Write(message);
         }
 
-        public static int GetNumberInput(string input = "")
+        public static int GetNumberInput(string? input = "")
         {
             WriteMessage("Please enter a number: ");
             if (input == "")
@@ -32,28 +32,31 @@ namespace myMath
         public static int GetOption(string msg)
         {
             WriteMessage(msg);
-            String input = Console.ReadLine();
+            String? input = Console.ReadLine();
             bool success = int.TryParse(input, out int num);
             if (success)
             {
                 return num;
             }
-            else{
+            else
+            {
                 return 0;
             }
         }
 
-        public static int SelectOperation() {
+        public static int SelectOperation()
+        {
             string msg = "Select which operation to perform: [1] Double, [2] Square, [3] Add to Self, [4] Multiply to Self\n";
             return Helpers.GetOption(msg);
-            
+
         }
 
-        public static int PerformOperation(int operation, int num)
+        public static int PerformAnOperation(int operation, int num)
         {
             SimpleMath myMath = new();
             Squarer mySquarer = new();
             WendysMath moreMath = new();
+
             switch (operation)
             {
                 case 1:
@@ -68,6 +71,7 @@ namespace myMath
                     return 0;
             }
         }
+
 
     }
 }

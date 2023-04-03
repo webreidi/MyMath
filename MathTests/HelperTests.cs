@@ -66,7 +66,7 @@ public class HelperTests
     {
         Random rnd = new();
         int num = rnd.Next();
-        int actual = Helpers.PerformOperation(1, num);
+        int actual = Helpers.PerformAnOperation(1, num);
         Assert.AreEqual(num*2, actual);
     }
 
@@ -75,7 +75,7 @@ public class HelperTests
     {
         Random rnd = new();
         int num = rnd.Next() / 100000;
-        int actual = Helpers.PerformOperation(2, num);
+        int actual = Helpers.PerformAnOperation(2, num);
         Assert.AreEqual(num*num, actual);
     }
 
@@ -84,7 +84,7 @@ public class HelperTests
     {
         Random rnd = new();
         int num = rnd.Next();
-        int actual = Helpers.PerformOperation(3, num);
+        int actual = Helpers.PerformAnOperation(3, num);
         Assert.AreEqual(num+num, actual);
     }
 
