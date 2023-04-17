@@ -38,7 +38,7 @@ namespace MathTests
 
         public async Task PrintDayThrow()
         {
-            Func<Task> testCode = () => Task.Factory.StartNew(DayThrowingMethod);
+            Task testCode() => Task.Factory.StartNew(DayThrowingMethod);
 
             ArgumentOutOfRangeException ex = await Assert.ThrowsExceptionAsync<ArgumentOutOfRangeException>(testCode);
 

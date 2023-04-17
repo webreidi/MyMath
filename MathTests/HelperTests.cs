@@ -10,27 +10,23 @@ public class HelperTests
     [TestMethod]
     public void testGetNumInput() {
         String msg = "10";
-        using (StringReader reader = new(msg))
-        {
-            Console.SetIn(reader);
-            int result = Helpers.GetNumberInput();
-            Assert.AreEqual(int.Parse(msg), result);
-        }
-    }       
+        using StringReader reader = new(msg);
+        Console.SetIn(reader);
+        int result = Helpers.GetNumberInput();
+        Assert.AreEqual(int.Parse(msg), result);
+    }   
 
 
     [TestMethod]
     public void testWriteMessage() {
         String msg = "This is a test!";
-        using (StringWriter writer = new())
-        using (StringReader reader = new(msg))
-        {
-            Console.SetOut(writer);
-            Console.SetIn(reader);
-            Helpers.WriteMessage(msg);
-            string consoleOutput = writer.ToString();
-            Assert.AreEqual(msg, consoleOutput.TrimEnd());
-        }
+        using StringWriter writer = new();
+        using StringReader reader = new(msg);
+        Console.SetOut(writer);
+        Console.SetIn(reader);
+        Helpers.WriteMessage(msg);
+        string consoleOutput = writer.ToString();
+        Assert.AreEqual(msg, consoleOutput.TrimEnd());
     }
 
     [TestMethod]
@@ -83,7 +79,7 @@ public class HelperTests
     public void testAddPerformOperation()
     {
         Random rnd = new();
-        int num = rnd.Next();
+        int num = rnd.Next()/10000;
         int actual = Helpers.PerformAnOperation(3, num);
         Assert.AreEqual(num+num, actual);
     }

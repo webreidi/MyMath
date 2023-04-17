@@ -51,11 +51,11 @@
             }
         }
 
-        public DateTime GetTomorrow() {
+        public string GetTomorrow() {
             DateTime today = DateTime.Now;
             TimeSpan duration = new(1, 0, 0, 0);
             DateTime tomorrow = today.Add(duration);
-            return tomorrow;
+            return tomorrow.ToString("dd/MM/yyy");
 
         }
         

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\myMath.csproj": {}
+    "c:\\Users\\webreidi\\Source\\MyMath\\MyMath\\MyMath.csproj": {}
   },
   "projects": {
-    "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\myMath.csproj": {
+    "c:\\Users\\webreidi\\Source\\MyMath\\MyMath\\MyMath.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\myMath.csproj",
-        "projectName": "myMath",
-        "projectPath": "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\myMath.csproj",
+        "projectUniqueName": "c:\\Users\\webreidi\\Source\\MyMath\\MyMath\\MyMath.csproj",
+        "projectName": "MyMath",
+        "projectPath": "c:\\Users\\webreidi\\Source\\MyMath\\MyMath\\MyMath.csproj",
         "packagesPath": "C:\\.tools\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\webreidi\\Source\\MyMath\\MyMath\\obj\\",
+        "outputPath": "c:\\Users\\webreidi\\Source\\MyMath\\MyMath\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

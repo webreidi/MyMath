@@ -81,6 +81,13 @@ public class CalendarTests
 
         Assert.IsType<ApplicationException>(ex);
     }
+
+    [Fact]
+    public void TestGetTomorrow(){
+        Calendars calendar = new Calendars();
+        DateTime tomorrow = DateTime.Now + new TimeSpan(1, 0, 0, 0);
+        Assert.Equal(tomorrow.ToString("dd/MM/yyy"), calendar.GetTomorrow());
+    }
     
     private void MonthThrowingMethod()
     {
