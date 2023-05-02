@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\webreidi\\Source\\MyMath\\MathXTests\\MathXTests.csproj": {}
+    "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MathXTests\\MathXTests.csproj": {}
   },
   "projects": {
-    "c:\\Users\\webreidi\\Source\\MyMath\\MathXTests\\MathXTests.csproj": {
+    "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MathXTests\\MathXTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\webreidi\\Source\\MyMath\\MathXTests\\MathXTests.csproj",
+        "projectUniqueName": "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MathXTests\\MathXTests.csproj",
         "projectName": "MathXTests",
-        "projectPath": "c:\\Users\\webreidi\\Source\\MyMath\\MathXTests\\MathXTests.csproj",
+        "projectPath": "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MathXTests\\MathXTests.csproj",
         "packagesPath": "C:\\.tools\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\webreidi\\Source\\MyMath\\MathXTests\\obj\\",
+        "outputPath": "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MathXTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\webreidi\\Source\\MyMath\\MyMath\\MyMath.csproj": {
-                "projectPath": "c:\\Users\\webreidi\\Source\\MyMath\\MyMath\\MyMath.csproj"
+              "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MyMath\\myMath.csproj": {
+                "projectPath": "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MyMath\\myMath.csproj"
               }
             }
           }
@@ -94,18 +93,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.300-preview.23179.2\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\webreidi\\Source\\MyMath\\MyMath\\MyMath.csproj": {
+    "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MyMath\\myMath.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\webreidi\\Source\\MyMath\\MyMath\\MyMath.csproj",
-        "projectName": "MyMath",
-        "projectPath": "c:\\Users\\webreidi\\Source\\MyMath\\MyMath\\MyMath.csproj",
+        "projectUniqueName": "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MyMath\\myMath.csproj",
+        "projectName": "myMath",
+        "projectPath": "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MyMath\\myMath.csproj",
         "packagesPath": "C:\\.tools\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\webreidi\\Source\\MyMath\\MyMath\\obj\\",
+        "outputPath": "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MyMath\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -120,7 +119,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -154,7 +152,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.300-preview.23179.2\\RuntimeIdentifierGraph.json"
         }
       }
     }

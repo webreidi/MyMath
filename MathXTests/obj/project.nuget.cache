@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "chxf13Vfc205yB+xWDdqfk/N0Y1XKfmerSjT7whfq4D+n1dUr5oKIfb9dXS9FnAXWYFcE4iEWXB0JpBthgg2Sw==",
+  "dgSpecHash": "HuW53wQNTo43MTQMj/t7z+MIKT3QadlhMlV675SDBX0mF+HuHe5GR6t195kH/BK95OmB6aqY5OjE0btDm6nNCA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\webreidi\\Source\\MyMath\\MathXTests\\MathXTests.csproj",
+  "projectFilePath": "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MathXTests\\MathXTests.csproj",
   "expectedPackageFiles": [
     "C:\\.tools\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\.tools\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
