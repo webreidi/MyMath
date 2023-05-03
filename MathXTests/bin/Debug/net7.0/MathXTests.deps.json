@@ -10,9 +10,9 @@
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "17.3.2",
           "Microsoft.QualityTools.Testing.Fakes": "16.11.230815",
+          "MyMath": "1.0.0",
           "coverlet.collector": "3.1.2",
           "Moq": "4.18.4",
-          "myMath": "1.0.0",
           "xunit": "2.4.2",
           "xunit.runner.visualstudio": "2.4.5"
         },
@@ -1264,9 +1264,9 @@
         }
       },
       "xunit.runner.visualstudio/2.4.5": {},
-      "myMath/1.0.0": {
+      "MyMath/1.0.0": {
         "runtime": {
-          "myMath.dll": {}
+          "MyMath.dll": {}
         }
       }
     }
@@ -1991,7 +1991,7 @@
       "path": "xunit.runner.visualstudio/2.4.5",
       "hashPath": "xunit.runner.visualstudio.2.4.5.nupkg.sha512"
     },
-    "myMath/1.0.0": {
+    "MyMath/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

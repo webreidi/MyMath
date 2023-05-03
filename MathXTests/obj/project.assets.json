@@ -2051,14 +2051,14 @@
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "myMath/1.0.0": {
+      "MyMath/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
-          "bin/placeholder/myMath.dll": {}
+          "bin/placeholder/MyMath.dll": {}
         },
         "runtime": {
-          "bin/placeholder/myMath.dll": {}
+          "bin/placeholder/MyMath.dll": {}
         }
       }
     }
@@ -6711,19 +6711,19 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "myMath/1.0.0": {
+    "MyMath/1.0.0": {
       "type": "project",
-      "path": "../MyMath/myMath.csproj",
-      "msbuildProject": "../MyMath/myMath.csproj"
+      "path": "../MyMath/MyMath.csproj",
+      "msbuildProject": "../MyMath/MyMath.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.NET.Test.Sdk >= 17.3.2",
       "Microsoft.QualityTools.Testing.Fakes >= 16.11.230815",
+      "MyMath >= 1.0.0",
       "coverlet.collector >= 3.1.2",
       "moq >= 4.18.4",
-      "myMath >= 1.0.0",
       "xunit >= 2.4.2",
       "xunit.runner.visualstudio >= 2.4.5"
     ]
@@ -6760,8 +6760,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MyMath\\myMath.csproj": {
-              "projectPath": "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MyMath\\myMath.csproj"
+            "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MyMath\\MyMath.csproj": {
+              "projectPath": "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MyMath\\MyMath.csproj"
             }
           }
         }

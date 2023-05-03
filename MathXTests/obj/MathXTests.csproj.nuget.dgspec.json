@@ -32,8 +32,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MyMath\\myMath.csproj": {
-                "projectPath": "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MyMath\\myMath.csproj"
+              "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MyMath\\MyMath.csproj": {
+                "projectPath": "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MyMath\\MyMath.csproj"
               }
             }
           }
@@ -97,12 +97,12 @@
         }
       }
     },
-    "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MyMath\\myMath.csproj": {
+    "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MyMath\\MyMath.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MyMath\\myMath.csproj",
-        "projectName": "myMath",
-        "projectPath": "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MyMath\\myMath.csproj",
+        "projectUniqueName": "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MyMath\\MyMath.csproj",
+        "projectName": "MyMath",
+        "projectPath": "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MyMath\\MyMath.csproj",
         "packagesPath": "C:\\.tools\\.nuget\\packages\\",
         "outputPath": "c:\\Users\\webreidi\\Source\\Repos\\MyMath\\MyMath\\obj\\",
         "projectStyle": "PackageReference",

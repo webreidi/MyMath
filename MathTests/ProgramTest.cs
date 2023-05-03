@@ -13,9 +13,9 @@ namespace MathTests
     [TestClass()]
     public class ProgramTests
     {
-      
-        string expectedOutput0 = "Through Another Method";
-        string expectedOutput1 = "Please enter a number: Select which operation to perform: [1] Double, [2] Square, [3] Add to Self, [4] Multiply to Self";
+
+        readonly string expectedOutput0 = "Through Another Method";
+        readonly string expectedOutput1 = "Please enter a number: Select which operation to perform: [1] Double, [2] Square, [3] Add to Self, [4] Multiply to Self";
 
         [TestMethod()]
         [DataTestMethod]
@@ -124,6 +124,42 @@ namespace MathTests
                 Assert.AreEqual(expectedOutput2, actualArray[2].TrimEnd());
 
             }
+        }
+
+        [TestMethod]
+        public void MainTestInvalidNumber() {
+            using StringWriter writer = new();
+            using StringReader reader = new("a\n1");
+            Console.SetOut(writer);
+            Console.SetIn(reader);
+            Program.Main();
+
+            string consoleOutput = writer.ToString();
+            string[] actualArray = consoleOutput.Split(new char[] { '\n' });
+
+            string expectedOutput2 = "Hello World! Your original number is " + 0  + " and after the operation it is " + 0;
+
+            Assert.AreEqual(expectedOutput2, actualArray[2].TrimEnd());
+
+        }
+
+        [TestMethod]
+        public void MainTestInvalidOption()
+        {
+            using StringWriter writer = new();
+            using StringReader reader = new("8\na");
+
+                        Console.SetOut(writer);
+            Console.SetIn(reader);
+            Program.Main();
+
+            string consoleOutput = writer.ToString();
+            string[] actualArray = consoleOutput.Split(new char[] { '\n' });
+
+            string expectedOutput2 = "Hello World! Your original number is " + 8  + " and after the operation it is " + 0;
+
+            Assert.AreEqual(expectedOutput2, actualArray[2].TrimEnd());
+
         }
 
         [TestMethod()]
