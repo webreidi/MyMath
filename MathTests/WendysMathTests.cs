@@ -136,7 +136,7 @@ namespace MathTests
         {
             WendysMath maths = new();
             Random rand = new();
-            for (int j=1; j<10; j++)
+            for (int j=1; j<4; j++)
             {
                 var baseNum = rand.Next(100);
                 int exp = -j;

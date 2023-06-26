@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace myMath
+﻿namespace myMath
 {
     public class WendysMath
     {
@@ -71,7 +65,7 @@ namespace myMath
             {
                 for (int i = 1; i < -power; i++)
                 {
-                    result = result * input;
+                    result *= input;
                 }
                 result = 1 / result;
             }

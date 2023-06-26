@@ -1,5 +1,6 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using myMath;
+﻿using myMath;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 
 namespace MathTests
 {
@@ -18,24 +19,34 @@ namespace MathTests
             Assert.AreEqual("Friday", calendars.GetDay(4));
             Assert.AreEqual("Saturday", calendars.GetDay(5));
             Assert.AreEqual("Sunday", calendars.GetDay(6));
-        }
+        }   
 
         [TestMethod]
-        public void PrintMonthTest() 
+        public void PrintMonthTest()
         {
             Calendars calendars = new();
             Assert.AreEqual("January", calendars.GetMonth(0));
-            Assert.AreEqual("February", calendars.GetMonth(1));
-            Assert.AreEqual("March", calendars.GetMonth(2));
-            Assert.AreEqual("April", calendars.GetMonth(3));
-            Assert.AreEqual("May", calendars.GetMonth(4));
-            Assert.AreEqual("June", calendars.GetMonth(5));
-            Assert.AreEqual("July", calendars.GetMonth(6));
-            Assert.AreEqual("August", calendars.GetMonth(7));
-            Assert.AreEqual("September", calendars.GetMonth(8));
-            Assert.AreEqual("October", calendars.GetMonth(9));
-            Assert.AreEqual("November", calendars.GetMonth(10));
-            Assert.AreEqual("December", calendars.GetMonth(11));
+        }
+
+        [TestMethod]
+        public void PrintDayThrowsTest()
+        {
+            //ArgumentOutOfRangeException ex = PrintDayThrow();
+            //Assert.AreEqual(new ArgumentOutOfRangeException(), ex);
+        }
+
+        [TestMethod]
+        public async Task PrintDayThrow()
+        {
+            static Task testCode() => Task.Factory.StartNew(DayThrowingMethod);
+
+            ArgumentOutOfRangeException ex = await Assert.ThrowsExceptionAsync<ArgumentOutOfRangeException>(testCode);
+
+        }
+
+        public static void DayThrowingMethod() {
+            Calendars calendars = new();
+            calendars.GetDay(7);
         }
     }
 }

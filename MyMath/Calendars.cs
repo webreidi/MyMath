@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.Specialized;
-using System.Linq;
-using System.Text;
-using System.Text.Json.Serialization;
-using System.Threading.Tasks;
-
-namespace myMath
+﻿namespace myMath
 {
     public class Calendars
     {
@@ -23,7 +15,7 @@ namespace myMath
                     4 => "Friday",
                     5 => "Saturday",
                     6 => "Sunday",
-                    _ => throw new ArgumentOutOfRangeException(),
+                    _ => throw new ArgumentOutOfRangeException()
                 };
             }
             catch (Exception)
@@ -59,11 +51,19 @@ namespace myMath
             }
         }
 
+        public string GetTomorrow() {
+            DateTime today = DateTime.Now;
+            TimeSpan duration = new(1, 0, 0, 0);
+            DateTime tomorrow = today.Add(duration);
+            return tomorrow.ToString("dd/MM/yyy");
+
+        }
+        
         public static class Y2KChecker
         {
-            public static void Check()
+            public static void Check(DateTime whatTime)
             {
-                if (DateTime.Now == new DateTime(2000, 1, 1))
+                if (whatTime == new DateTime(2000, 1, 1))
                     throw new ApplicationException("y2kbug!");
                 Helpers.WriteMessage("It is not January 1, 2000!");
             }

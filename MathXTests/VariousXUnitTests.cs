@@ -1,7 +1,7 @@
 namespace MathXTests;
 using myMath;
 
-public class UnitTest1
+public class VariousXUnitTests
 {
     [Fact]
     public void PrintMonthTest()
@@ -38,6 +38,49 @@ public class UnitTest1
     {
         Calendars calendars= new();
         calendars.GetMonth(12);
+    }
+
+    [Fact]
+    public void DoSomething2_ValidParams_ReturnsTrue()
+    {
+        // Arrange
+        var simpleMathMock = new Mock<Helpers>();
+        int a = 10, b = 2;
+        simpleMathMock.Setup(x => x.Divide(a, b)).Returns(a / b);
+ 
+        // Act
+        bool result = Program.DoSomething2(a, b);
+
+        // Assert
+        Assert.True(result);
+    }
+
+    [Fact]
+    public void DoSomething2_InvalidParams_ReturnsFalse()
+    {
+        // Arrange
+        var simpleMathMock = new Mock<Helpers>();
+        int a = 10, b = 0;
+        simpleMathMock.Setup(x => x.Divide(a, b)).Throws(new ArgumentOutOfRangeException());
+ 
+        // Act
+        bool result = Program.DoSomething2(a, b);
+
+        // Assert
+        Assert.False(result);
+    }
+
+    [Fact]
+    public void DoSomething2_ValidAndInvalidDateStrings_FormatsDate()
+    {
+        // Arrange
+        var simpleMathMock = new Mock<SimpleMath>();
+
+        // Act
+        bool result = Program.DoSomething2(1, 1);
+
+        // Assert
+        Assert.NotNull(result);
     }
 
 }
