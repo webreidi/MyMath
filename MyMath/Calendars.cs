@@ -2,7 +2,7 @@
 {
     public class Calendars
     {
-        public string GetDay(int day)
+        public static string GetDay(int day)
         {
             try
             {
@@ -15,16 +15,16 @@
                     4 => "Friday",
                     5 => "Saturday",
                     6 => "Sunday",
-                    _ => throw new ArgumentOutOfRangeException()
+                    _ => throw new ArgumentOutOfRangeException(paramName: nameof(day), message: "Not a valid day")
                 };
             }
             catch (Exception)
             {
-                throw new ArgumentOutOfRangeException();
+                throw new ArgumentOutOfRangeException(paramName: nameof(day), message: "Not a valid day");
             }
         }
 
-        public string GetMonth(int month)
+        public static string GetMonth(int month)
         {
             try
             {
@@ -42,16 +42,16 @@
                     9 => "October",
                     10 => "November",
                     11 => "December",
-                    _ => throw new ArgumentOutOfRangeException(),
+                    _ => throw new ArgumentOutOfRangeException(paramName: nameof(month), message: "Not a valid month"),
                 };
             }
             catch (Exception)
             {
-                throw new ArgumentOutOfRangeException();
+                throw new ArgumentOutOfRangeException(paramName: nameof(month), message: "Not a valid month");
             }
         }
 
-        public string GetTomorrow() {
+        public static string GetTomorrow() {
             DateTime today = DateTime.Now;
             TimeSpan duration = new(1, 0, 0, 0);
             DateTime tomorrow = today.Add(duration);

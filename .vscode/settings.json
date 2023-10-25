@@ -1,3 +1,5 @@
 {
-    "vsgreen.defaultSolution": "MyMath.sln"
+    "vsgreen.defaultSolution": "MyMath.sln",
+    "dotnet.defaultSolution": "MyMath.sln",
+    "dotnet.testWindow.useTestAnywhereProtocol": true
 }

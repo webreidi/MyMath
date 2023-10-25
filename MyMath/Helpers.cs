@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text.RegularExpressions;
 
 namespace myMath
 {
-    internal class Helpers
+    internal partial class Helpers
     {
+        private const int V = 0;
+
         public virtual double Divide(double dividend, double divisor)
         {
             SimpleMath simpleMath = new();
@@ -61,23 +59,96 @@ namespace myMath
         {
             SimpleMath myMath = new();
             Squarer mySquarer = new();
-            WendysMath moreMath = new();
+            _ = new WendysMath();
 
-            switch (operation)
+            int v = operation switch
             {
-                case 1:
-                    return myMath.DoubleNum(num);
-                case 2:
-                    return (int)mySquarer.Square(Convert.ToDouble(num));
-                case 3:
-                    return (int)myMath.Adder(Convert.ToDouble(num), Convert.ToDouble(num));
-                case 4:
-                    return (int)myMath.Multiplier(Convert.ToDouble(num), Convert.ToDouble(num));
-                default:
-                    return 0;
-            }
+                1 => myMath.DoubleNum(num),
+                2 => (int)mySquarer.Square(Convert.ToDouble(num)),
+                3 => (int)myMath.Adder(Convert.ToDouble(num), Convert.ToDouble(num)),
+                4 => (int)myMath.Multiplier(Convert.ToDouble(num), Convert.ToDouble(num)),
+                _ => V,
+            };
+            return v;
         }
 
+        public static string NewMethod() => "Hello World";
 
-    }
+        public static bool DoSomething2(int a, int b)
+        {
+            SimpleMath simpleMath = new();
+            string[] formats = { "yyyyMMdd", "HHmmss" };
+            string[] dateStrings = { "20130816", "20131608", "  20130816   ", "115216", "521116", "  115216  " };
+            string formatChange = "";
+
+
+            foreach (var dateString in dateStrings)
+            {
+                if (DateTime.TryParseExact(dateString, formats, null,
+                               System.Globalization.DateTimeStyles.AllowWhiteSpaces |
+                               System.Globalization.DateTimeStyles.AdjustToUniversal,
+                               out DateTime parsedDate))
+                    formatChange += dateString + " --> " + parsedDate + "\n";
+                else
+                    formatChange += "Cannot convert " + dateString + "\n";
+            }
+
+            try
+            {
+                if (simpleMath.Divider(a, b) == a / b)
+                {
+                    string message = "They are equal.";
+                    Match m = LangRegex().Match(message);
+                    return m.Success;
+
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            catch (ArgumentOutOfRangeException)
+            {
+
+                return false;
+            }
+        }
+        
+        public static DateTime ParseTimeString(string timeString)
+        {
+            string[] formats = { "yyyyMMdd", "HHmmss" };
+
+            if (DateTime.TryParseExact(timeString, formats, null, System.Globalization.DateTimeStyles.AllowWhiteSpaces | 
+                System.Globalization.DateTimeStyles.AdjustToUniversal, out DateTime parsedDate))
+            {
+                return parsedDate;
+            }
+            else
+            {
+                throw new ArgumentException("Invalid date string format.");
+            }
+        }
+        public static DateTime ParseDateString(string dateString)
+        {
+            string[] formats = { "yyyyMMdd", "HHmmss" };
+
+            if (DateTime.TryParseExact(dateString, formats, null,
+                System.Globalization.DateTimeStyles.AllowWhiteSpaces |
+                System.Globalization.DateTimeStyles.AdjustToUniversal,
+                out DateTime parsedDate))
+            {
+                return parsedDate;
+            }
+            else
+            {
+                throw new ArgumentException("Invalid date string format.");
+            }
+        }
+        
+        [GeneratedRegex("\\ba\\w*\\b", RegexOptions.IgnoreCase, "en-US")]
+        private static partial Regex LangRegex();
+
+
+    }    
+
 }
