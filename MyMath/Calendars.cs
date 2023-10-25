@@ -2,7 +2,7 @@
 {
     public class Calendars
     {
-        public static string GetDay(int day)
+        public string GetDay(int day)
         {
             try
             {
@@ -24,7 +24,7 @@
             }
         }
 
-        public static string GetMonth(int month)
+        public string GetMonth(int month)
         {
             try
             {
@@ -51,7 +51,7 @@
             }
         }
 
-        public static string GetTomorrow() {
+        public string GetTomorrow() {
             DateTime today = DateTime.Now;
             TimeSpan duration = new(1, 0, 0, 0);
             DateTime tomorrow = today.Add(duration);

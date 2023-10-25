@@ -49,7 +49,7 @@ public class VariousXUnitTests
         simpleMathMock.Setup(x => x.Divide(a, b)).Returns(a / b);
  
         // Act
-        bool result = Program.DoSomething2(a, b);
+        bool result = Helpers.DoSomething2(a, b);
 
         // Assert
         Assert.True(result);
@@ -64,7 +64,7 @@ public class VariousXUnitTests
         simpleMathMock.Setup(x => x.Divide(a, b)).Throws(new ArgumentOutOfRangeException());
  
         // Act
-        bool result = Program.DoSomething2(a, b);
+        bool result = Helpers.DoSomething2(a, b);
 
         // Assert
         Assert.False(result);
@@ -77,7 +77,7 @@ public class VariousXUnitTests
         var simpleMathMock = new Mock<SimpleMath>();
 
         // Act
-        bool result = Program.DoSomething2(1, 1);
+        bool result = Helpers.DoSomething2(1, 1);
 
         // Assert
         Assert.NotNull(result);

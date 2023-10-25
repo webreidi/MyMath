@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MyMath\MyMath.csproj" />
+    <ProjectReference Include="..\MyMath\myMath.csproj" />
   </ItemGroup>
 
 </Project>
