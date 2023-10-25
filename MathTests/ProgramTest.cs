@@ -167,15 +167,9 @@ namespace MathTests
             Assert.AreEqual("Through Another Method\nPlease enter a number: Select which operation to perform: [1] Double, [2] Square, [3] Add to Self, [4] Multiply to Self\nHello World! Your original number is 5 and after the operation it is 10", "Through Another Method\nPlease enter a number: Select which operation to perform: [1] Double, [2] Square, [3] Add to Self, [4] Multiply to Self\nHello World! Your original number is 5 and after the operation it is 10");}
 
         [TestMethod]
-        public void NewMethodTest() 
-        {
-            Assert.AreEqual("Hello World", Program.NewMethod());
-        }
-
-        [TestMethod]
         public void AnotherMethodTest()
         {
-            Assert.AreEqual(true, Program.DoSomething2(1,1));
+            Assert.AreEqual(true, Helpers.DoSomething2(1,1));
         }
     }
 }
