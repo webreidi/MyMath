@@ -2,7 +2,13 @@
 {
     public class Calendars
     {
-        public static string GetDay(int day)
+		/// <summary>
+		/// Returns the name of the day based on the provided integer.
+		/// </summary>
+		/// <param name="day">The integer representation of the day, where 0 is Monday and 6 is Sunday.</param>
+		/// <returns>The name of the day as a string.</returns>
+		/// <exception cref="ArgumentOutOfRangeException">Thrown when the provided integer is not between 0 and 6.</exception>
+		public static string GetDay(int day)
         {
             try
             {
@@ -24,7 +30,13 @@
             }
         }
 
-        public static string GetMonth(int month)
+		/// <summary>
+		/// Returns the name of the month based on the provided integer.
+		/// </summary>
+		/// <param name="month">The integer representation of the month, where 0 is January and 11 is December.</param>
+		/// <returns>The name of the month as a string.</returns>
+		/// <exception cref="ArgumentOutOfRangeException">Thrown when the provided integer is not between 0 and 11.</exception>
+		public static string GetMonth(int month)
         {
             try
             {
@@ -51,6 +63,10 @@
             }
         }
 
+        /// <summary>
+        /// Returns the current date in the format dd/MM/yyyy.
+        /// </summary>
+        /// <returns>The current date in the format dd/MM/yyyy as a string.</returns>
         public static string GetTomorrow() {
             DateTime today = DateTime.Now;
             TimeSpan duration = new(1, 0, 0, 0);
@@ -58,9 +74,25 @@
             return tomorrow.ToString("dd/MM/yyy");
 
         }
-        
+
+		/// <summary>
+        /// Returns boolean value indicating whether the provided date is a leap year.
+        /// </summary>
+        /// <param name="date">A DateTime object</param>
+        /// <returns>boolean indicating whether the provided date is a leap year.</returns>
+        public static bool IsLeapYear(DateTime date)
+		{
+			int year = date.Year;
+			return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
+		}
+
         public static class Y2KChecker
         {
+            /// <summary>
+            /// Prints a message to the console if the provided date is not January 1, 2000.
+            /// </summary>
+            /// <param name="whatTime">A DateTime object</param>
+            /// <exception cref="ApplicationException">Thows an ApplicationException if the date is January 1, 2000.</exception>
             public static void Check(DateTime whatTime)
             {
                 if (whatTime == new DateTime(2000, 1, 1))

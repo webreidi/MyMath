@@ -1,0 +1,7 @@
+{
+  "program": "MathTests",
+  "connectionTimeout":  1000000,
+  "environment": {
+    "_DebugTestWindowStartupHook":  1
+  }
+}

@@ -14,7 +14,7 @@ namespace myMath
         
         public static void WriteMessage(String message)
         {
-            Console.Write(message);
+            Console.WriteLine(message);
         }
 
         public static int GetNumberInput(string? input = "")
