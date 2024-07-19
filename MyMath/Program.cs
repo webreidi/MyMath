@@ -4,7 +4,8 @@ using System.Diagnostics;
 
 string myMessage = "Hello World! Your original number is ";
 
-if (Helpers.DoSomething2(9, 3))
+Random rnd = new();
+if (Helpers.DoSomething2(rnd.Next(0,100), rnd.Next(0,100))
 {
 	Helpers.WriteMessage("Through Another Method");
 } else
