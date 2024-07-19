@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿using Microsoft.VisualBasic;
+using System.Text.RegularExpressions;
 
 namespace myMath
 {
@@ -19,18 +20,15 @@ namespace myMath
 
         public static int GetNumberInput(string? input = "")
         {
-            WriteMessage("Please enter a number: ");
-            if (input == "")
-                input = Console.ReadLine();
-            bool success = int.TryParse(input, out int num);
+            string msg = "Please enter a number: ";
+            
+			if (input == "")
+                input = GetInput(msg);
+			bool success = int.TryParse(input, out int num);
             if (success)
-            {
                 return num;
-            }
             else
-            {
                 return 0;
-            }
         }
 
         public static int GetOption(string msg)
@@ -48,7 +46,34 @@ namespace myMath
             }
         }
 
-        public static int SelectOperation()
+        public static DateTime GetDate(string msg)
+        {
+            WriteMessage(msg);
+            String? input = Console.ReadLine();
+            bool success = DateTime.TryParse(input, out DateTime date);
+            if (success)
+            {
+                return date;
+            } else
+            {
+                return DateTime.MinValue;
+            }
+        }
+
+        public static string GetInput(string msg)
+		{
+			WriteMessage(msg);
+			String? input =  Console.ReadLine();
+            if (input == null)
+			{
+				return "";
+			} else
+			{
+				return input;
+			}
+		}
+
+		public static int SelectOperation()
         {
             string msg = "Select which operation to perform: [1] Double, [2] Square, [3] Add to Self, [4] Multiply to Self\n";
             return Helpers.GetOption(msg);

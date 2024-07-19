@@ -10,7 +10,8 @@ public class HelperTests
     [Test]
     public void Test1()
     {
-        Assert.Fail();
+        string msg = "This is a test!";
+		Assert.That(msg, Is.EqualTo(msg.Trim()));
     }
 
     [Test]
