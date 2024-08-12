@@ -173,7 +173,6 @@ namespace myMath
         [GeneratedRegex("\\ba\\w*\\b", RegexOptions.IgnoreCase, "en-US")]
         private static partial Regex LangRegex();
 
-
     }    
 
 }

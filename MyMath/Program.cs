@@ -5,7 +5,7 @@ using System.Diagnostics;
 string myMessage = "Hello World! Your original number is ";
 
 Random rnd = new();
-if (Helpers.DoSomething2(rnd.Next(0,100), rnd.Next(0,100))
+if (Helpers.DoSomething2(rnd.Next(0,100), rnd.Next(0,100)))
 {
 	Helpers.WriteMessage("Through Another Method");
 } else
@@ -16,7 +16,7 @@ if (Helpers.DoSomething2(rnd.Next(0,100), rnd.Next(0,100))
 //Check if the year is Y2K
 DateTime today = DateTime.Today;
 Calendars.Y2KChecker.Check(today);
-Helpers.WriteMessage("Today is " + today);
+Helpers.WriteMessage("Today is " + today.ToLongDateString());
 
 //Check if the year is a leap year
 if (Calendars.IsLeapYear(today))

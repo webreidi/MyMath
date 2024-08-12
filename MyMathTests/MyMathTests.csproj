@@ -8,6 +8,7 @@
     <outputType>Exe</outputType>
     <IsPackable>false</IsPackable>
     <IsTestProject>true</IsTestProject>
+    <ParallelizationMode>parallel</ParallelizationMode>
   </PropertyGroup>
 
   <ItemGroup>

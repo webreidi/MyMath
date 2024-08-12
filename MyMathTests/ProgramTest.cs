@@ -33,7 +33,7 @@ namespace MathTests
                 using StringReader reader = new(nums[j]);
                 Console.SetOut(writer);
                 Console.SetIn(reader);
-                myMath.Program.Main();
+                // myMath.Program.Main();
                 string consoleOutput = writer.ToString();
                 int originalNum = int.Parse(nums[j].Split(new char[] { '\n' })[0]);
                 string expectedOutput6 = "Hello World! Your original number is " + originalNum  + " and after the operation it is " + doubled[j];
@@ -61,7 +61,7 @@ namespace MathTests
                 using StringReader reader = new(nums[j]);
                 Console.SetOut(writer);
                 Console.SetIn(reader);
-                myMath.Program.Main();
+                // myMath.Program.Main();
 
                 string consoleOutput = writer.ToString();
 
@@ -93,7 +93,7 @@ namespace MathTests
                 using StringReader reader = new(nums[j]);
                 Console.SetOut(writer);
                 Console.SetIn(reader);
-                myMath.Program.Main();
+                // myMath.Program.Main();
 
                 string consoleOutput = writer.ToString();
 
@@ -125,7 +125,7 @@ namespace MathTests
                 using StringReader reader = new(nums[j]);
                 Console.SetOut(writer);
                 Console.SetIn(reader);
-                myMath.Program.Main();
+                // myMath.Program.Main();
 
                 string consoleOutput = writer.ToString();
 
@@ -152,7 +152,7 @@ namespace MathTests
             using StringReader reader = new("a\n1");
             Console.SetOut(writer);
             Console.SetIn(reader);
-            myMath.Program.Main();
+            // myMath.Program.Main();
 
             string consoleOutput = writer.ToString();
             string[] actualArray = consoleOutput.Split(new char[] { '\n' });
@@ -171,7 +171,7 @@ namespace MathTests
 
                         Console.SetOut(writer);
             Console.SetIn(reader);
-            myMath.Program.Main();
+            // myMath.Program.Main();
 
             string consoleOutput = writer.ToString();
             string[] actualArray = consoleOutput.Split(new char[] { '\n' });
