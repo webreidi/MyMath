@@ -8,7 +8,7 @@ using static myMath.Calendars;
 public class CalendarTests
 {
     [Fact]
-    public void PrintDayTest() 
+    public void PrintDayTest()
     {
         Assert.Equal("Monday", GetDay(0));
         Assert.Equal("Tuesday", GetDay(1));
@@ -35,11 +35,11 @@ public class CalendarTests
         Assert.Equal("October", GetMonth(9));
         Assert.Equal("November", GetMonth(10));
         Assert.Equal("December", GetMonth(11));
-        
+
     }
 
     [Fact]
-    public async void MonthThrowsAsync()
+    public async Task MonthThrowsAsync()
     {
         Func<Task> testCode = () => Task.Factory.StartNew(MonthThrowingMethod);
 
@@ -49,7 +49,7 @@ public class CalendarTests
     }
 
     [Fact]
-    public async void DayThrowsAsync()
+    public async Task DayThrowsAsync()
     {
         Func<Task> testCode = () => Task.Factory.StartNew(DayThrowingMethod);
 
@@ -59,7 +59,8 @@ public class CalendarTests
     }
 
     [Fact]
-    public void TestY2KChecker() {
+    public void TestY2KChecker()
+    {
         string expected = "It is not January 1, 2000!\r\n";
         using (StringWriter wr = new())
         {
@@ -67,11 +68,13 @@ public class CalendarTests
             Y2KChecker.Check(DateTime.Now);
             string actual = wr.ToString();
             Assert.Equal(expected, actual);
-        };
+        }
+        ;
     }
 
     [Fact]
-    public async void TestY2KCheckerThrowsAsync() {
+    public async Task TestY2KCheckerThrowsAsync()
+    {
         Func<Task> testCode = () => Task.Factory.StartNew(Y2KCheckerThrowingMethod);
 
         ApplicationException ex = await Assert.ThrowsAsync<ApplicationException>(testCode);
@@ -80,11 +83,12 @@ public class CalendarTests
     }
 
     [Fact]
-    public void TestGetTomorrow(){
+    public void TestGetTomorrow()
+    {
         DateTime tomorrow = DateTime.Now + new TimeSpan(1, 0, 0, 0);
         Assert.Equal(tomorrow.ToString("dd/MM/yyy"), GetTomorrow());
     }
-    
+
     private void MonthThrowingMethod()
     {
         GetMonth(12);
@@ -97,7 +101,7 @@ public class CalendarTests
 
     private void Y2KCheckerThrowingMethod()
     {
-           Y2KChecker.Check(new DateTime(2000,1,1));
+        Y2KChecker.Check(new DateTime(2000, 1, 1));
     }
 
 

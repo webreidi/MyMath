@@ -93,7 +93,7 @@ namespace MathTests
                 using StringReader reader = new(nums[j]);
                 Console.SetOut(writer);
                 Console.SetIn(reader);
-                // myMath.Program.Main();
+                //myMath.Program.Main();
 
                 string consoleOutput = writer.ToString();
 
@@ -159,7 +159,7 @@ namespace MathTests
 
             string expectedOutput6 = "Hello World! Your original number is " + 0  + " and after the operation it is " + 0;
 
-            Assert.AreEqual(expectedOutput6, actualArray[7].TrimEnd());
+            Assert.AreEqual(expectedOutput6, actualArray[0].TrimEnd());
 
         }
 

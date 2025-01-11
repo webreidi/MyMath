@@ -98,13 +98,13 @@ public class HelperTests
         [TestMethod]
         public void AnotherMethodTest()
         {
-            Assert.AreEqual(true, myMath.Helpers.DoSomething2(1,1));
+            Assert.AreEqual(true, myMath.Helpers.ValidateAndCompareNumbers(1,1));
         }
 
         [TestMethod]
         public void DoSomethingNotEqualTest()
         {
-            Assert.IsFalse(myMath.Helpers.DoSomething2(1, 0));
+            Assert.IsFalse(myMath.Helpers.ValidateAndCompareNumbers(1, 0));
         }
 
         [TestMethod]

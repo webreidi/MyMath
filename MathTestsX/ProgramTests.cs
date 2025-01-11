@@ -37,7 +37,7 @@ namespace myMath.Tests
             var simpleMathMock = new Mock<SimpleMath>();
             _ = simpleMathMock.Setup(s => s.Divider(a, b)).Returns(expected ? a / b : throw new ArgumentOutOfRangeException(message: "Denomenator cannot be zero.", innerException: null));
 
-            bool result = Helpers.DoSomething2(a, b);
+            bool result = Helpers.ValidateAndCompareNumbers(a, b);
             Assert.Equal(expected, result);
         }
 

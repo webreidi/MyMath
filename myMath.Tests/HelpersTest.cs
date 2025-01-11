@@ -40,7 +40,7 @@ namespace myMath.Tests
         [PexMethod]
         internal bool DoSomething2(int a, int b)
         {
-            bool result = Helpers.DoSomething2(a, b);
+            bool result = Helpers.ValidateAndCompareNumbers(a, b);
             return result;
             // TODO: add assertions to method HelpersTest.DoSomething2(Int32, Int32)
         }
@@ -95,6 +95,70 @@ namespace myMath.Tests
             string result = Helpers.NewMethod();
             return result;
             // TODO: add assertions to method HelpersTest.NewMethod()
+        }
+    }
+
+    [TestMethod]
+        public void GetInput_ReturnsInput_WhenInputIsNotNull()
+        {
+            // Arrange
+            string expected = "test input";
+            using (var sw = new StringWriter())
+            {
+                Console.SetOut(sw);
+                using (var sr = new StringReader(expected))
+                {
+                    Console.SetIn(sr);
+
+                    // Act
+                    string result = Helpers.GetInput("Enter something:");
+
+                    // Assert
+                    Assert.AreEqual(expected, result);
+                }
+            }
+        }
+
+        [TestMethod]
+        public void GetInput_ReturnsEmptyString_WhenInputIsNull()
+        {
+            // Arrange
+            using (var sw = new StringWriter())
+            {
+                Console.SetOut(sw);
+                using (var sr = new StringReader(string.Empty))
+                {
+                    Console.SetIn(sr);
+
+                    // Act
+                    string result = Helpers.GetInput("Enter something:");
+
+                    // Assert
+                    Assert.AreEqual(string.Empty, result);
+                }
+            }
+        }
+
+        [TestMethod]
+        public void GetInput_WritesMessageToConsole()
+        {
+            // Arrange
+            string message = "Enter something:";
+            using (var sw = new StringWriter())
+            {
+                Console.SetOut(sw);
+                using (var sr = new StringReader("test input"))
+                {
+                    Console.SetIn(sr);
+
+                    // Act
+                    Helpers.GetInput(message);
+
+                    // Assert
+                    string consoleOutput = sw.ToString().Trim();
+                    Assert.IsTrue(consoleOutput.Contains(message));
+                }
+            }
         }
     }
 }

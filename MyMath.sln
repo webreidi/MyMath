@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathTestsX", "MathTestsX\Ma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMathTests", "MyMathTests\MyMathTests.csproj", "{16DE9644-D1AA-4CD7-8A30-C4C7816D427E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples", "Examples\Examples.csproj", "{43278F26-A093-47E6-8266-860BD3A5C739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewMSTest", "NewMSTest\NewMSTest.csproj", "{8E8D4067-A7D9-4B2F-A0FB-12A3F9622203}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{16DE9644-D1AA-4CD7-8A30-C4C7816D427E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16DE9644-D1AA-4CD7-8A30-C4C7816D427E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16DE9644-D1AA-4CD7-8A30-C4C7816D427E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43278F26-A093-47E6-8266-860BD3A5C739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43278F26-A093-47E6-8266-860BD3A5C739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43278F26-A093-47E6-8266-860BD3A5C739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43278F26-A093-47E6-8266-860BD3A5C739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E8D4067-A7D9-4B2F-A0FB-12A3F9622203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E8D4067-A7D9-4B2F-A0FB-12A3F9622203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E8D4067-A7D9-4B2F-A0FB-12A3F9622203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E8D4067-A7D9-4B2F-A0FB-12A3F9622203}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

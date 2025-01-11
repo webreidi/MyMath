@@ -12,7 +12,7 @@ namespace myMath
             SimpleMath simpleMath = new();
             return simpleMath.Divider(dividend, divisor);
         }
-        
+
         public static void WriteMessage(String message)
         {
             Console.WriteLine(message);
@@ -21,10 +21,10 @@ namespace myMath
         public static int GetNumberInput(string? input = "")
         {
             string msg = "Please enter a number: ";
-            
-			if (input == "")
+
+            if (input == "")
                 input = GetInput(msg);
-			bool success = int.TryParse(input, out int num);
+            bool success = int.TryParse(input, out int num);
             if (success)
                 return num;
             else
@@ -50,30 +50,33 @@ namespace myMath
         {
             WriteMessage(msg);
             String? input = Console.ReadLine();
-            bool success = DateTime.TryParse(input, out DateTime date);
+            string[] formats = { "yyyyMMdd", "MMddyyyy" };
+            bool success = DateTime.TryParseExact(input, formats, null, System.Globalization.DateTimeStyles.None, out DateTime date);
             if (success)
             {
                 return date;
-            } else
+            }
+            else
             {
                 return DateTime.MinValue;
             }
         }
 
         public static string GetInput(string msg)
-		{
-			WriteMessage(msg);
-			String? input =  Console.ReadLine();
+        {
+            WriteMessage(msg);
+            String? input = Console.ReadLine();
             if (input == null)
-			{
-				return "";
-			} else
-			{
-				return input;
-			}
-		}
+            {
+                return "";
+            }
+            else
+            {
+                return input;
+            }
+        }
 
-		public static int SelectOperation()
+        public static int SelectOperation()
         {
             string msg = "Select which operation to perform: [1] Double, [2] Square, [3] Add to Self, [4] Multiply to Self\n";
             return Helpers.GetOption(msg);
@@ -99,24 +102,9 @@ namespace myMath
 
         public static string NewMethod() => "Hello World";
 
-        public static bool DoSomething2(int a, int b)
+        public static bool ValidateAndCompareNumbers(int a, int b)
         {
             SimpleMath simpleMath = new();
-            string[] formats = { "yyyyMMdd", "HHmmss" };
-            string[] dateStrings = { "20130816", "20131608", "  20130816   ", "115216", "521116", "  115216  " };
-            string formatChange = "";
-
-
-            foreach (var dateString in dateStrings)
-            {
-                if (DateTime.TryParseExact(dateString, formats, null,
-                               System.Globalization.DateTimeStyles.AllowWhiteSpaces |
-                               System.Globalization.DateTimeStyles.AdjustToUniversal,
-                               out DateTime parsedDate))
-                    formatChange += dateString + " --> " + parsedDate + "\n";
-                else
-                    formatChange += "Cannot convert " + dateString + "\n";
-            }
 
             try
             {
@@ -138,12 +126,12 @@ namespace myMath
                 return false;
             }
         }
-        
+
         public static DateTime ParseTimeString(string timeString)
         {
             string[] formats = { "yyyyMMdd", "HHmmss" };
 
-            if (DateTime.TryParseExact(timeString, formats, null, System.Globalization.DateTimeStyles.AllowWhiteSpaces | 
+            if (DateTime.TryParseExact(timeString, formats, null, System.Globalization.DateTimeStyles.AllowWhiteSpaces |
                 System.Globalization.DateTimeStyles.AdjustToUniversal, out DateTime parsedDate))
             {
                 return parsedDate;
@@ -169,10 +157,26 @@ namespace myMath
                 throw new ArgumentException("Invalid date string format.");
             }
         }
-        
+
+        public static int DoSomethingFun()
+        {
+            return 42;
+        }
+
+
+        public static string DoSomethingElseFun()
+        {
+            SimpleMath simpleMath = new();
+            int doubleNum = simpleMath.DoubleNum(21);
+            double subrractNum = simpleMath.Subtractor(21, 21);
+            return "Hello World";
+        }
+
+
+
         [GeneratedRegex("\\ba\\w*\\b", RegexOptions.IgnoreCase, "en-US")]
         private static partial Regex LangRegex();
 
-    }    
+    }
 
 }

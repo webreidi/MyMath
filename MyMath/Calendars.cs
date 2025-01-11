@@ -101,5 +101,16 @@
             }
         }
 
+        public static int GetYear(DateTime date)
+        {
+
+            return date.Year;
+        }
+
+        public static int GetYear()
+        {
+            return DateTime.Now.Year;
+        }
+
     }
 }

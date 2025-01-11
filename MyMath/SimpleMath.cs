@@ -40,6 +40,11 @@ namespace myMath
             }
         }
 
+        /// <summary>
+        /// Doubles the given integer.
+        /// </summary>
+        /// <param name="x">The integer to be doubled.</param>
+        /// <returns>The result of doubling the input integer.</returns>
         public int DoubleNum(int x)
         {
             return x * 2;

@@ -20,11 +20,11 @@ public class VariousXUnitTests
         Assert.Equal("October", Calendars.GetMonth(9));
         Assert.Equal("November", Calendars.GetMonth(10));
         Assert.Equal("December", Calendars.GetMonth(11));
-        
+
     }
 
-        [Fact]
-    public async void MonthThrowsAsync()
+    [Fact]
+    public async Task MonthThrowsAsync()
     {
         Calendars calendars = new();
         Task testCode() => Task.Factory.StartNew(ThrowingMethod);
@@ -36,7 +36,7 @@ public class VariousXUnitTests
 
     void ThrowingMethod()
     {
-        Calendars calendars= new();
+        Calendars calendars = new();
         Calendars.GetMonth(12);
     }
 
@@ -47,9 +47,9 @@ public class VariousXUnitTests
         var simpleMathMock = new Mock<Helpers>();
         int a = 10, b = 2;
         simpleMathMock.Setup(x => x.Divide(a, b)).Returns(a / b);
- 
+
         // Act
-        bool result = myMath.Helpers.DoSomething2(a, b);
+        bool result = myMath.Helpers.ValidateAndCompareNumbers(a, b);
 
         // Assert
         Assert.True(result);
@@ -62,9 +62,9 @@ public class VariousXUnitTests
         var simpleMathMock = new Mock<Helpers>();
         int a = 10, b = 0;
         simpleMathMock.Setup(x => x.Divide(a, b)).Throws(new ArgumentOutOfRangeException());
- 
+
         // Act
-        bool result = myMath.Helpers.DoSomething2(a, b);
+        bool result = myMath.Helpers.ValidateAndCompareNumbers(a, b);
 
         // Assert
         Assert.False(result);
@@ -74,7 +74,7 @@ public class VariousXUnitTests
     public void DoSomething2_ValidInput()
     {
         // Act
-        bool result = myMath.Helpers.DoSomething2(1, 1);
+        bool result = myMath.Helpers.ValidateAndCompareNumbers(1, 1);
 
         // Assert
         Assert.True(result);

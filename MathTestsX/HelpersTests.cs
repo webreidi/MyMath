@@ -64,14 +64,14 @@ public class HelpersTests
     [Fact]
     public void DoSomething2_ValidInputs_ReturnsTrue()
     {
-        var result = Helpers.DoSomething2(10, 2);
+        var result = Helpers.ValidateAndCompareNumbers(10, 2);
         Assert.True(result);
     }
 
     [Fact]
     public void DoSomething2_InvalidInputs_ReturnsFalse()
     {
-        var result = Helpers.DoSomething2(10, 0);
+        var result = Helpers.ValidateAndCompareNumbers(10, 0);
         Assert.False(result);
     }
 
